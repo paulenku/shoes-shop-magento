@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<layout>
+    <dsslider_index_index>
+        <reference name="content">
+            <block type="dsslider/slider" template="ds_slider/index.phtml" />
+        </reference>
+    </dsslider_index_index>
+    <dsslider_index_view>
+        <reference name="content">
+            <block type="dsslider/view" name="slider.content" template="ds_slider/view.phtml" />
+        </reference>
+    </dsslider_index_view>
+</layout>

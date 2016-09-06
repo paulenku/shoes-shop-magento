@@ -1,0 +1,7455 @@
+.err404 {
+    width: 1112px;
+    height: 515px;
+    margin: 0 auto;
+    position: relative
+}
+
+.err404 .text {
+    text-align: center;
+    font-size: 150px;
+    font-weight: 600;
+    padding-top: 100px
+}
+
+.err404 .descr {
+    text-align: center;
+    font-size: 20px
+}
+
+.err404 .img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("/catalog/view/theme/tattootools/static/image/brokenglass.png") no-repeat center
+}
+
+.account-left-menu {
+    width: 100%;
+    border-bottom: 1px solid #f3f2ea
+}
+
+.account-left-menu__item {
+    display: inline-block;
+    margin-left: 40px;
+    padding-bottom: 25px;
+    margin-bottom: -2px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #313131;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.account-left-menu__item:hover {
+    text-decoration: none;
+    color: #c19566
+}
+
+.account-left-menu__item--active {
+    text-decoration: none;
+    color: #c19566;
+    border-bottom: 2px solid #c19566
+}
+
+.account-left-menu__item__input {
+    width: 360px
+}
+
+.account__page {
+    margin: 40px 0
+}
+
+.account__header {
+    padding: 45px 0;
+    margin: 0
+}
+
+.account__input {
+    width: 400px;
+    float: left;
+    padding: 0 0 0 40px
+}
+
+.account__input--bordered {
+    width: 399px;
+    padding: 0 40px 0 0;
+    border-right: 1px solid #f3f2ea
+}
+
+.account__order-table {
+    font-size: 14px;
+    color: #666;
+    width: 100%;
+    margin: 45px 0
+}
+
+.account__order-table thead {
+    font-size: 10px;
+    font-weight: 700;
+    color: #999;
+    text-transform: uppercase
+}
+
+.account__order-table thead td {
+    padding: 12px 0;
+    cursor: default;
+    text-align: center
+}
+
+.account__order-table thead tr, .account__order-table tbody tr {
+    border-bottom: 1px solid #e5e5e5
+}
+
+.account__order-table tbody tr:hover {
+    background: #f1f1ef
+}
+
+.account__order-table tbody tr .results__container {
+    cursor: default
+}
+
+.account__order-table tbody td {
+    padding: 22px 0;
+    cursor: pointer;
+    text-align: center
+}
+
+.account__order-table__order-link {
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+    -webkit-transition: all .5s;
+    transition: all .5s
+}
+
+.account__order-table__order-link--active {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+
+.account__order-table__order-link--full-active {
+    color: #c19566
+}
+
+.account__order-table__price {
+    font-size: 14px;
+    font-weight: 700;
+    color: #333
+}
+
+.account__order-table__trigger {
+    width: 30px
+}
+
+.account__table {
+    width: 100%;
+    margin: 40px 0
+}
+
+.account__table thead {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #555
+}
+
+.account__table thead td {
+    padding: 10px 0
+}
+
+.account__table tbody td {
+    padding-right: 20px
+}
+
+.account__table tbody td.image, .account__table__product-line__image {
+    width: 126px;
+    height: 126px
+}
+
+.account__table__product-line__model {
+    font-size: 10px;
+    color: #666;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 5px
+}
+
+.account__table__product-line__name {
+    color: #313131;
+    font-size: 12px;
+    text-transform: uppercase;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.account__table__product-line__name:hover {
+    color: #c19566
+}
+
+.account__table__product-line__price {
+    display: block;
+    font-size: 14px;
+    color: #313131;
+    text-transform: uppercase;
+    font-weight: 600
+}
+
+.account__table__product-line__availability {
+    font-size: 12px;
+    color: #313131
+}
+
+.account__table__product-line__button {
+    position: relative;
+    width: 178px;
+    height: 43px
+}
+
+.account__input-field {
+    width: 374px !important;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.account__input-field:hover {
+    background: #fff !important;
+    border: 1px solid #f8f8f7 !important
+}
+
+.account__input-field:focus {
+    background: #fff !important;
+    border: 1px solid #f8f8f7 !important
+}
+
+.account__order-page__empty {
+    padding: 150px 0
+}
+
+.account__order-page__empty__message {
+    display: block;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 30px
+}
+
+.account__label {
+    display: inline-block !important;
+    margin-left: 10px !important;
+    font-size: 12px;
+    color: #313131
+}
+
+.account__thanks-message {
+    display: inline-block;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 300px
+}
+
+.account__thanks-button {
+    display: inline-block;
+    margin: 50px 0 150px
+}
+
+.account__message-text {
+    display: block;
+    margin: 30px auto 0;
+    text-align: center;
+    color: #666;
+    width: 480px;
+    font-size: 14px;
+    font-weight: 300
+}
+
+.account__message-text-bottom {
+    margin-bottom: 20px
+}
+
+.account__link {
+    color: #c19566
+}
+
+.available:before {
+    background-image: url("/catalog/view/theme/tattootools/image/checked-icon.png")
+}
+
+.available:before, .not-available:before {
+    display: inline-block;
+    content: '';
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    margin: 6px -17px
+}
+
+.not-available:before {
+    background-image: url("/catalog/view/theme/tattootools/image/not-checked-1.png")
+}
+
+tr.results {
+    height: 0;
+    border: none
+}
+
+tr.results, tr.results td {
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+tr.results td {
+    display: none;
+    padding: 0
+}
+
+tr.results--active {
+    background: #f8f7f2;
+    height: initial;
+    border-bottom: 1px solid #e5e5e5
+}
+
+tr.results--active td {
+    padding: 22px;
+    display: table-cell
+}
+
+.results__line__model, .results__line__name {
+    display: block
+}
+
+.article-page {
+    min-height: 400px
+}
+
+.article-page__bottom {
+    width: 100%;
+    height: 500px
+}
+
+.article-page__header {
+    display: block;
+    font-size: 42px;
+    font-weight: 300;
+    margin: .67em 0;
+    text-align: center;
+    padding-bottom: 15px
+}
+
+.article-page__form {
+    display: block;
+    width: 900px;
+    padding: 20px 30px;
+    background: #c19566;
+    margin: 20px 0;
+    text-align: center
+}
+
+.article-page__form__label {
+    display: inline-block
+}
+
+.article-page__form__label__description {
+    display: inline-block;
+    font-size: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: 10px
+}
+
+.article-page__form__label__input {
+    display: inline-block;
+    padding: 9px;
+    border: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    width: 240px;
+    margin-right: 10px;
+    outline: none
+}
+
+.article-page__form__submit {
+    background: #af885f !important;
+    color: #fff !important
+}
+
+.article-page__form__submit:hover {
+    background: #fff !important;
+    color: #313131 !important
+}
+
+.article-page__warning {
+    width: 400px;
+    text-align: center;
+    font-size: 10px;
+    text-transform: uppercase;
+    margin: 30px auto
+}
+
+.article-page__results {
+    background: #f3f2ea;
+    width: 430px;
+    padding: 20px;
+    float: left;
+    margin: 20px 20px 20px 0
+}
+
+.article-page__results:last-of-type {
+    margin-right: 0
+}
+
+.article-page__overflow {
+    overflow: hidden
+}
+
+.article-page__overflow:after {
+    display: block;
+    content: '';
+    clear: both
+}
+
+.bold-heading {
+    display: block;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 20px
+}
+
+.contacts__map {
+    margin-top: 30px
+}
+
+.article {
+    width: 960px
+}
+
+.article__text__lead {
+    padding: 20px 0;
+    font-weight: 700
+}
+
+.article__text__image {
+    width: 100%;
+    height: 300px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px 0
+}
+
+.article__text__text {
+    margin-bottom: 60px
+}
+
+.article__text__text ul {
+    list-style: none;
+    font-size: 12px;
+    color: #666;
+    padding: 10px 0
+}
+
+.article__text__text ul li:before {
+    color: #e4b742;
+    font-size: 26px;
+    content: "-";
+    margin-right: 10px
+}
+
+.article__text__text ul a {
+    color: #313131;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.article__text__text ul a:hover {
+    opacity: .7
+}
+
+.article {
+    margin: 0 auto 44px
+}
+
+.article .content .full-title {
+    font-size: 29px;
+    color: #000;
+    line-height: 41px;
+    padding-bottom: 10px;
+    padding-top: 10px
+}
+
+.article .content .texts {
+    color: #222
+}
+
+.article .content .texts a {
+    color: #2580c9;
+    font-size: 14px;
+    line-height: 22px;
+    border-bottom: 1px solid #d1e4f0;
+    text-decoration: none;
+    display: inline-block
+}
+
+.article .content .texts a:hover {
+    color: #3999d6
+}
+
+.article .content .texts a:active {
+    opacity: .8
+}
+
+.article .content .texts ul, .article .content .texts ol {
+    padding-left: 40px;
+    list-style: inside square
+}
+
+.article .content .texts ul li, .article .content .texts ol li {
+    display: list-item
+}
+
+.article .content .texts ul li strong, .article .content .texts ol li strong {
+    display: block;
+    margin: 6px 0 30px
+}
+
+.article .content .cats {
+    padding-bottom: 40px
+}
+
+.article .content .cats ol, .article .content .cats ul {
+    padding-left: 50px;
+    list-style: inside square
+}
+
+.article .content .cats ol li, .article .content .cats ul li {
+    display: list-item;
+    list-style: inside square
+}
+
+.article .content .cats ol li a, .article .content .cats ul li a {
+    display: inline-block;
+    color: #333;
+    -webkit-transition: opacity .2s;
+    transition: opacity .2s
+}
+
+.article .content .cats ol li a:hover, .article .content .cats ul li a:hover {
+    opacity: .7
+}
+
+.article.sitemap .linka {
+    margin: 3px 0
+}
+
+.breadcrumbs {
+    width: 960px;
+    padding: 20px 0;
+    margin: 0 auto;
+    text-align: left;
+    cursor: default;
+    clear: both
+}
+
+.breadcrumbs__item {
+    display: inline-block
+}
+
+.breadcrumbs__link {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #999;
+    font-weight: 400;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.breadcrumbs__link:hover {
+    color: #c19566
+}
+
+.breadcrumbs__link__delimiter {
+    display: inline-block;
+    color: #999;
+    font-size: 12px;
+    margin: 0 8px
+}
+
+.product-details .breadcrumbs {
+    margin-left: 22px;
+    width: auto
+}
+
+.breadcrumbs__item:last-of-type .breadcrumbs__link__delimiter {
+    display: none
+}
+
+.buy-form__add-to-cart-form .buy-form {
+    padding: 18px 30px 4px;
+    border: 2px solid #f3f2ea;
+    width: 325px;
+    overflow: hidden;
+    border-radius: 4px;
+    margin: 0 20px
+}
+
+.buy-form__add-to-cart-form .buy-form__float {
+    display: block;
+    float: left;
+    margin: 0 20px 18px 0
+}
+
+.buy-form__add-to-cart-form .buy-form__add-to-cart-form {
+    margin: 0
+}
+
+.buy-form__add-to-cart-form .buy-form__add-to-cart-form .product-options {
+    border: 2px solid #f3f1ea;
+    border-radius: 3px 3px 0 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: relative;
+    top: 2px
+}
+
+.buy-form__add-to-cart-form .buy-form__add-to-cart-form__button {
+    display: block;
+    text-align: left;
+    background-image: url("/catalog/view/theme/tattootools/image/cart-icon-white.png");
+    background-position: 40px 12px;
+    background-repeat: no-repeat;
+    width: 108px;
+    padding: 15px 0 14px 71px
+}
+
+.buy-form__add-to-cart-form .buy-form__add-to-cart-form__button:hover {
+    background-image: url("/catalog/view/theme/tattootools/image/cart-icon.png");
+    background-position: 40px 12px;
+    background-repeat: no-repeat;
+    width: 108px;
+    padding: 15px 0 14px 71px
+}
+
+.buy-form__add-to-cart-form .buy-form__add-to-cart-form__label {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    width: 183px;
+    height: 43px;
+    border-radius: 4px
+}
+
+.buy-form__add-to-cart-form .buy-form__add-to-cart-form__added-container {
+    position: absolute;
+    width: 0;
+    height: 43px;
+    overflow: hidden;
+    -webkit-transition: all .6s;
+    transition: all .6s
+}
+
+.buy-form__add-to-cart-form .buy-form__add-to-cart-form__added-container__button {
+    position: absolute;
+    padding: 15px 15px 15px 71px;
+    width: 93px;
+    text-align: left;
+    background: #c19566 url("/catalog/view/theme/tattootools/image/cart-icon-white.png") no-repeat 40px 12px;
+    border: 1px solid #c19566
+}
+
+.buy-form__add-to-cart-form .buy-form__add-to-cart-form__added-container__button:hover {
+    color: #fff
+}
+
+.buy-form__add-to-cart-form .buy-form__add-to-cart-form__added-container--immediate-show {
+    -webkit-transition: none !important;
+    transition: none !important
+}
+
+.buy-form__add-to-cart-form .buy-form__price {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    padding-left: 2px
+}
+
+.buy-form__add-to-cart-form .buy-form__price .crnc {
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase
+}
+
+.buy-form__add-to-cart-form .buy-form__price .disco-price .disco-initial, .buy-form__add-to-cart-form .buy-form__price .disco-price .disco-initial .crnc {
+    font-size: 16px !important
+}
+
+.buy-form__add-to-cart-form .buy-form__availability {
+    padding: 10px 0 10px 15px;
+    margin-right: 4px;
+    background: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    border-radius: 4px;
+    position: relative;
+    float: right;
+    max-width: 138px
+}
+
+.buy-form__add-to-cart-form .buy-form__availability--true {
+    color: #858585
+}
+
+.buy-form__add-to-cart-form .buy-form__availability--true:before {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    content: '';
+    background-image: url("/catalog/view/theme/tattootools/image/checked-icon.png");
+    background-position: center;
+    -webkit-background-size: 10px;
+    background-size: 10px;
+    background-repeat: no-repeat
+}
+
+.buy-form__add-to-cart-form .buy-form__availability--false {
+    color: #555
+}
+
+.buy-form__add-to-cart-form .buy-form__availability--false:before {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    content: '';
+    background-image: url("/catalog/view/theme/tattootools/image/not-checked-1.png");
+    background-position: center;
+    -webkit-background-size: 10px;
+    background-size: 10px;
+    background-repeat: no-repeat
+}
+
+.buy-form__add-to-cart-form .buy-form__quantity {
+    -webkit-appearance: none;
+    display: block;
+    padding: 10px 45px 10px 15px;
+    background: #f3f2ea;
+    font-size: 12px;
+    border-radius: 4px;
+    border: none;
+    outline: none
+}
+
+.product-wishlist:before {
+    display: block;
+    content: '';
+    clear: both
+}
+
+.product-wishlist .add-to-wishlist {
+    display: block;
+    margin-left: 20px
+}
+
+.product-wishlist__show-products-from-category {
+    display: block;
+    font-size: 10px;
+    color: #313131;
+    text-transform: uppercase;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.product-wishlist__show-products-from-category:hover {
+    color: #c19566
+}
+
+.product__add-to-wishlist__link {
+    display: block;
+    position: relative;
+    cursor: pointer
+}
+
+.product-wishlist__add-to-wishlist__before {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -9px;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    background: url("/catalog/view/theme/tattootools/image/wishlist-star.png") no-repeat center;
+    -webkit-background-size: 10px;
+    background-size: 10px
+}
+
+.product-wishlist__add-to-wishlist {
+    display: block;
+    height: 16px;
+    line-height: 16px;
+    margin: 10px 0 10px 20px;
+    font-size: 10px;
+    font-weight: 700;
+    color: #666;
+    text-transform: uppercase;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    -webkit-appearance: none;
+    border: none;
+    background: #fff
+}
+
+.product-wishlist__add-to-wishlist:hover {
+    color: #c19566
+}
+
+.cart-empty {
+    width: 960px;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto
+}
+
+.cart-empty__heading {
+    display: block;
+    padding: 20px 0;
+    font-size: 30px;
+    font-weight: 200
+}
+
+.cart-empty__message {
+    display: block;
+    font-size: 10px;
+    text-transform: uppercase
+}
+
+.cart-empty__link {
+    display: inline-block;
+    margin: 20px 0 190px;
+    -webkit-transition: background .2s, color .2s;
+    transition: background .2s, color .2s
+}
+
+.cart-empty__link:hover {
+    background: #c19566;
+    color: #fff
+}
+
+.cart {
+    width: 960px;
+    padding: 20px 0;
+    text-align: center;
+    margin: 0 auto;
+    min-height: 400px
+}
+
+.cart__related-products {
+    width: 293px
+}
+
+.cart__related-products td {
+    padding: 5px
+}
+
+.cart__related-products__item {
+    height: 50px;
+    -webkit-transition: all .4s;
+    transition: all .4s
+}
+
+.cart__related-products__item:hover .cart__related-products__item__add-to-cart__fake-submit {
+    opacity: 1
+}
+
+.cart__related-products__item__image {
+    width: 50px;
+    height: 50px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+.cart__related-products__item__image-cell {
+    width: 50px
+}
+
+.cart__related-products__item__model {
+    display: block;
+    color: #666;
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-bottom: 5px
+}
+
+.cart__related-products__item__name {
+    display: block;
+    color: #111;
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: 500
+}
+
+.cart__related-products__item__price {
+    display: block;
+    color: #666;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 700
+}
+
+.cart__related-products__item__add-to-cart label {
+    display: block;
+    width: 27px;
+    height: 27px;
+    position: relative
+}
+
+.cart__related-products__item__add-to-cart__hidden-submit {
+    display: none
+}
+
+.cart__related-products__item__add-to-cart__fake-submit {
+    display: block;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #c29566;
+    border-radius: 3px;
+    background-image: url("/catalog/view/theme/tattootools/image/cart-icon.png");
+    background-position: center;
+    -webkit-background-size: 18px;
+    background-size: 18px;
+    background-repeat: no-repeat;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    cursor: pointer;
+    opacity: 0
+}
+
+.cart__related-products__item__add-to-cart__fake-submit--disabled {
+    display: none
+}
+
+.cart__related-products__item__add-to-cart__fake-submit:hover {
+    opacity: .7 !important
+}
+
+.cart__related-products__item__add-to-cart__loader {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25px;
+    height: 25px;
+    background-image: url("/catalog/view/theme/tattootools/image/loader-bea.gif");
+    background-position: center;
+    -webkit-background-size: 18px;
+    background-size: 18px;
+    background-repeat: no-repeat;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    display: none
+}
+
+.cart__related-products__item__add-to-cart__loader--active {
+    display: block
+}
+
+.cart__this-will-take-you {
+    line-height: 85px;
+    color: #888;
+    font-size: 14px
+}
+
+.cart__store-email {
+    background: url("/catalog/view/theme/tattootools/image/mail-icon.png") no-repeat top 3px left 0;
+    padding-left: 25px
+}
+
+.cart__store-phone {
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal
+}
+
+.cart__overflow {
+    overflow: hidden;
+    margin-bottom: 30px
+}
+
+.cart__float-left {
+    float: left
+}
+
+.cart__heading {
+    display: block;
+    font-size: 30px;
+    font-weight: 200
+}
+
+.cart__warning {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 20px;
+    background: #fff;
+    color: red;
+    border: 1px solid #f17d7d;
+    border-radius: 3px;
+    margin: 20px 0;
+    font-weight: 200
+}
+
+.cart__help {
+    width: 293px;
+    padding: 0 20px;
+    text-align: left
+}
+
+.cart__help-container {
+    display: none
+}
+
+.cart__table, .cart__table__container {
+    width: 100%
+}
+
+.cart__table .thead {
+    color: #666;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-align: left
+}
+
+.cart__table__tbody {
+    text-align: left
+}
+
+.cart__table .tfoot {
+    text-align: right
+}
+
+.cart__pop-up {
+    display: none;
+    position: fixed;
+    z-index: 778;
+    background: rgba(0, 0, 0, .8);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.cart__pop-up--active {
+    display: block
+}
+
+.cart__pop-up__body {
+    background: #fff;
+    width: 300px;
+    margin: 90px auto 0;
+    overflow: hidden;
+    position: relative;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.cart__pop-up__body__error {
+    width: 90%;
+    text-align: center;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding: 20px 5%;
+    background: #fffc80;
+    color: #ff5140
+}
+
+.cart__pop-up__body__error, .cart__pop-up__body__remover {
+    display: block;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.cart__pop-up__body__remover {
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-image: url("/catalog/view/theme/tattootools/image/cross.svg");
+    -webkit-background-size: 10px;
+    background-size: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer
+}
+
+.cart__pop-up__body__remover:hover {
+    border: 1px solid #f8f8f7;
+    border-radius: 100%
+}
+
+.cart__pop-up__body__header {
+    display: block;
+    padding: 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.cart__pop-up__body__form {
+    padding: 20px
+}
+
+.cart__pop-up__body__form__description {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.cart__pop-up__body__form__fields {
+    margin-top: 20px;
+    display: block
+}
+
+.cart__pop-up__body__form__fields__label {
+    display: block;
+    margin: 5px 0
+}
+
+.cart__pop-up__body__form__fields__input {
+    display: block;
+    border: 1px solid #ddd;
+    font-size: 12px;
+    padding: 10px 12px;
+    outline: none;
+    width: 230px
+}
+
+.cart__pop-up__body__form__fields__input__span {
+    display: block;
+    padding: 5px 0;
+    font-size: 10px;
+    text-transform: uppercase
+}
+
+.cart__pop-up__body__form__fields__submit-block {
+    position: relative;
+    height: 42px
+}
+
+.cart__pop-up__body__form__fields__submit-block__loader {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url("/catalog/view/theme/tattootools/image/loader-bea.gif");
+    background-position: center;
+    -webkit-background-size: 30px;
+    background-size: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin: 0 auto 0 -15px;
+    display: none
+}
+
+.cart__pop-up__body__form__fields__submit-block__loader--active {
+    display: block
+}
+
+.cart__pop-up__success__message {
+    font-size: 14px;
+    font-weight: 300
+}
+
+.cart__pop-up__bottom {
+    margin: 20px auto;
+    color: #fff;
+    width: 200px;
+    text-align: center;
+    font-size: 10px;
+    text-transform: uppercase
+}
+
+.cart__bottom-substitute {
+    height: 85px
+}
+
+.cart__bottom {
+    background: #f8f8f6;
+    height: 85px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0
+}
+
+.cart__bottom__total {
+    display: block;
+    float: left;
+    font-size: 11px;
+    color: #888;
+    text-transform: uppercase;
+    line-height: 85px;
+    font-weight: 500
+}
+
+.cart__bottom__total__highlighted {
+    font-size: 13px;
+    font-weight: 600;
+    color: #313131
+}
+
+.cart-products-line {
+    height: 100px;
+    overflow: hidden
+}
+
+.cart-products-line.out-of-stock .cart-products-line__image, .cart-products-line.out-of-stock .cart-products-line__model, .cart-products-line.out-of-stock .cart-products-line__name, .cart-products-line.out-of-stock .td.quantity, .cart-products-line.out-of-stock .td.price {
+    opacity: .5
+}
+
+.cart-products-line.out-of-stock .cart-products-line__image:hover, .cart-products-line.out-of-stock .cart-products-line__model:hover, .cart-products-line.out-of-stock .cart-products-line__name:hover, .cart-products-line.out-of-stock .td.quantity:hover, .cart-products-line.out-of-stock .td.price:hover, .cart-products-line.out-of-stock .cart-products-line__image:active, .cart-products-line.out-of-stock .cart-products-line__model:active, .cart-products-line.out-of-stock .cart-products-line__name:active, .cart-products-line.out-of-stock .td.quantity:active, .cart-products-line.out-of-stock .td.price:active {
+    opacity: .5
+}
+
+.cart-products-line .not-avail {
+    color: #ff5140;
+    font-size: 12px;
+    padding-top: 10px;
+    text-transform: uppercase
+}
+
+.cart-products-line .td {
+    height: 100px;
+    overflow: hidden;
+    cursor: default
+}
+
+.cart-products-line__image {
+    width: 100px;
+    height: 100px;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.cart-products-line__image:hover {
+    opacity: .7
+}
+
+.cart-products-line .td.image {
+    width: 100px;
+    height: 100px;
+    padding: 0 20px 0 0;
+    float: left
+}
+
+.cart-products-line .td.image a {
+    display: block;
+    width: 100px;
+    height: 100px;
+    overflow: hidden
+}
+
+.cart-products-line .td.image a img {
+    display: block;
+    width: 100px
+}
+
+.cart-products-line .td.descr {
+    float: left;
+    width: 420px
+}
+
+.cart-products-line .td.descr table {
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+    margin: 0
+}
+
+.cart-products-line .td.descr table tr td {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    vertical-align: middle
+}
+
+.cart-products-line .td.delete {
+    float: right;
+    width: 35px
+}
+
+.cart-products-line .td.delete .cart-delete {
+    margin-top: 40px;
+    width: 20px;
+    height: 20px;
+    display: block
+}
+
+.cart-products-line .td.delete .cart-delete .cart-delete__label, .cart-products-line .td.delete .cart-delete .cart-delete__label .cart-delete__clicker {
+    width: 20px;
+    height: 20px;
+    display: block
+}
+
+.cart-products-line .td.price {
+    float: left;
+    width: 150px
+}
+
+.cart-products-line .td.price .tbl {
+    display: table;
+    height: 100px;
+    width: 100%
+}
+
+.cart-products-line .td.price .tbl .tbl-td {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    padding-left: 30px
+}
+
+.cart-products-line .td.quantity {
+    float: left;
+    padding: 0 20px
+}
+
+.cart-products-line .td.quantity .joystick-block {
+    margin-top: 28px;
+    background: #fff;
+    border-color: #fff
+}
+
+.cart-products-line .td.quantity .joystick-block .joystick__input {
+    background: #fff;
+    color: #333
+}
+
+.cart-products-line__model {
+    font-size: 11px;
+    color: #868686;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 300;
+    line-height: 14px;
+    max-height: 28px;
+    overflow: hidden;
+    display: block
+}
+
+.cart-products-line__set {
+    font-size: 10px;
+    color: #666;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 5px
+}
+
+.cart-products-line__name {
+    color: #4c4c4c;
+    font-size: 14px;
+    text-transform: uppercase;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    font-weight: 300;
+    line-height: 18px;
+    max-height: 36px;
+    overflow: hidden;
+    display: block
+}
+
+.cart-products-line__name:hover {
+    color: #c19566
+}
+
+.cart-products-line__weight {
+    font-size: 10px;
+    color: #666;
+    text-transform: uppercase;
+    display: block
+}
+
+.cart-products-line__available {
+    display: block;
+    font-size: 12px;
+    color: #3a8e5f
+}
+
+.cart-products-line__not-available {
+    display: block;
+    font-size: 12px;
+    color: #ff5140
+}
+
+.price-fixer {
+    text-align: left
+}
+
+.cart-total__right {
+    padding: 0 10px;
+    font-size: 10px;
+    color: #313131;
+    text-transform: uppercase
+}
+
+.cart-price {
+    display: block;
+    padding: 0 10px;
+    font-size: 14px;
+    color: #313131;
+    font-weight: 400
+}
+
+.cart-price__grey {
+    color: #555;
+    font-weight: 200
+}
+
+.fast-order-button {
+    display: block;
+    margin: 25px auto 0;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.fast-order-button:hover {
+    background: #c19566;
+    color: #fff
+}
+
+.cart-link {
+    display: inline-block
+}
+
+.cart-link__checkout {
+    float: left;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    background: #c19566 !important;
+    color: #fff !important
+}
+
+.cart-link__checkout:hover {
+    background: #fff !important;
+    color: #c19566 !important
+}
+
+.cart-delete, .cart-delete__label {
+    display: block;
+    width: 20px;
+    height: 20px;
+    overflow: hidden
+}
+
+.cart-delete__label {
+    position: relative
+}
+
+.cart-delete__input {
+    opacity: 0
+}
+
+.cart-delete__clicker {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    display: block;
+    opacity: .5;
+    background-image: url("/catalog/view/theme/tattootools/static/image/cart-del.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.cart-delete__clicker:hover {
+    opacity: 1 !important
+}
+
+.total__cart__table__row__cell--item__mount {
+    width: 120px
+}
+
+.cart-totals {
+    margin-top: -9px;
+    margin-bottom: 26px
+}
+
+.cart-totals .row {
+    height: 40px;
+    line-height: 40px
+}
+
+.cart-totals .row .key {
+    float: right;
+    text-align: right;
+    font-size: 14px;
+    color: #333;
+    font-weight: 300;
+    margin-right: 25px;
+    line-height: 44px
+}
+
+.cart-totals .row .val {
+    float: right;
+    width: 187px;
+    text-align: left;
+    font-size: 14px;
+    color: #313131;
+    font-weight: 600
+}
+
+.cart-totals .row .val .num {
+    font-size: 19px;
+    font-weight: 400
+}
+
+.cart-totals .row .val .pref {
+    font-size: 14px;
+    font-weight: 300
+}
+
+.order-moar {
+    margin: 10px 0;
+    text-align: center
+}
+
+.order-moar .store-button {
+    margin: 0 auto 40px
+}
+
+.category-top {
+    background: #fff;
+    text-align: center
+}
+
+.category-top__short-description {
+    width: 520px;
+    margin: 0 auto 30px;
+    font-size: 14px;
+    color: #858585
+}
+
+.category-top__empty {
+    display: block !important;
+    width: 400px;
+    margin: 100px auto 80px !important;
+    text-align: center
+}
+
+.category-top__heading {
+    margin: 0;
+    display: block;
+    padding: 0 20px 30px;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 300
+}
+
+.category-top__description a:hover {
+    opacity: .7
+}
+
+.category-top__description li {
+    list-style: square inside
+}
+
+.category-top__description__show-more {
+    display: inline-block;
+    margin: 5px 0;
+    cursor: pointer;
+    color: #c19566;
+    font-size: 10px;
+    text-transform: uppercase
+}
+
+.category-top__description__show-more:hover {
+    color: #8e6e4b
+}
+
+.category-top__show-more {
+    display: block;
+    position: relative;
+    height: 56px;
+    width: 100%;
+    background: #c29566;
+    color: #fff;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 57px;
+    cursor: pointer;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.category-top__show-more:hover {
+    opacity: .7
+}
+
+.category-top__show-more:before {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    content: '';
+    top: 18px;
+    left: 50%;
+    margin-left: -65px;
+    background: url("/catalog/view/theme/tattootools/image/refresh-round.png") no-repeat center
+}
+
+.category-top__show-more.loading:before {
+    -moz-animation-name: spin;
+    -moz-animation-duration: 4000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 4000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    -webkit-animation-name: spin;
+    animation-name: spin;
+    -webkit-animation-duration: 4000ms;
+    animation-duration: 4000ms;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear
+}
+
+.subcategories {
+    padding: 30px 20px;
+    width: 960px;
+    text-align: center;
+    margin: 0 auto
+}
+
+.subcategories__item {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #313131;
+    margin: 5px 10px;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.subcategories__item:hover {
+    color: #fff;
+    background: #c19566;
+    border-radius: 4px
+}
+
+.subcategories__item--active {
+    color: #fff;
+    background: #c19566;
+    border-radius: 4px
+}
+
+.fixed-to-maxw.account-left-menu {
+    width: 960px;
+    margin: 0 auto;
+    height: 60px;
+    line-height: 18px;
+    position: relative;
+    overflow: hidden
+}
+
+.fixed-to-maxw.account-left-menu .centered {
+    margin: 0 auto;
+    overflow: hidden
+}
+
+.fixed-to-maxw.account-left-menu .centered.arrowed {
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 880px
+}
+
+.fixed-to-maxw.account-left-menu .account-left-menu__item {
+    padding-bottom: 0;
+    height: 59px;
+    width: 100px;
+    text-align: center;
+    overflow: hidden;
+    white-space: normal;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    display: inline-block;
+    position: relative
+}
+
+.fixed-to-maxw.account-left-menu .account-left-menu__item .ico {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    overflow: hidden
+}
+
+.fixed-to-maxw.account-left-menu .account-left-menu__item .ico img {
+    display: block;
+    width: 40px;
+    margin: 0 auto
+}
+
+.fixed-to-maxw.account-left-menu .account-left-menu__item .name {
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+    width: 100%;
+    height: 50px;
+    display: table
+}
+
+.fixed-to-maxw.account-left-menu .account-left-menu__item .name .td {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    text-overflow: ellipsis
+}
+
+.fixed-to-maxw.account-left-menu .account-left-menu__item .name .td .text {
+    display: inline-block;
+    vertical-align: middle;
+    max-height: 36px;
+    overflow: hidden;
+    line-height: 18px
+}
+
+.fixed-to-maxw.account-left-menu .left-arrow {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    width: 30px;
+    height: 39px;
+    cursor: pointer;
+    background: url("/catalog/view/theme/tattootools/image/arr-l.png") no-repeat top 10px center;
+    -webkit-background-size: 20px;
+    background-size: 20px;
+    opacity: .8;
+    -webkit-transition: opacity .2s;
+    transition: opacity .2s
+}
+
+.fixed-to-maxw.account-left-menu .left-arrow:hover {
+    opacity: 1
+}
+
+.fixed-to-maxw.account-left-menu .right-arrow {
+    position: absolute;
+    top: 4px;
+    right: 0;
+    width: 30px;
+    height: 39px;
+    cursor: pointer;
+    background: url("/catalog/view/theme/tattootools/image/arr-r.png") no-repeat top 10px center;
+    -webkit-background-size: 20px;
+    background-size: 20px;
+    opacity: .8;
+    -webkit-transition: opacity .2s;
+    transition: opacity .2s
+}
+
+.fixed-to-maxw.account-left-menu .right-arrow:hover {
+    opacity: 1
+}
+
+@-webkit-keyframes spin {
+    from {
+        -webkit-transform: rotate(0deg)
+    }
+    to {
+        -webkit-transform: rotate(-360deg)
+    }
+}
+
+@-webkit-keyframes spin {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    to {
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg)
+    }
+}
+
+@keyframes spin {
+    from {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    to {
+        -webkit-transform: rotate(-360deg);
+        -ms-transform: rotate(-360deg);
+        transform: rotate(-360deg)
+    }
+}
+
+.address__autocomplete {
+    display: none;
+    position: absolute;
+    width: 256px;
+    background: #fff;
+    z-index: 100;
+    margin-top: -1px;
+    border: 1px solid #e5e5e5;
+    font-size: 13px;
+    text-overflow: ellipsis;
+    text-align: left
+}
+
+.address__autocomplete__item {
+    padding: 12px;
+    font-size: 12px;
+    text-transform: uppercase;
+    cursor: pointer
+}
+
+.address__autocomplete__item--selected {
+    color: #313131;
+    background: #e5e5e5
+}
+
+.address__autocomplete__item__highlight {
+    background: #ffa500
+}
+
+.address__autocomplete--delivery {
+    width: 218px;
+    left: auto;
+    right: 0
+}
+
+.address__autocomplete:empty {
+    opacity: 0
+}
+
+.registration__field {
+    width: 730px;
+    border: 2px solid #ebebeb;
+    display: inline-block;
+    margin-right: 22px;
+    float: left;
+    padding-bottom: 30px
+}
+
+.registration__field__upper__text {
+    text-align: center;
+    width: 375px;
+    font-size: 12px;
+    margin: 30px auto 0
+}
+
+.registration__field__upper__text__h1 {
+    text-align: left;
+    margin-left: -95px;
+    margin-top: -5px;
+    font-size: 30px;
+    text-transform: none
+}
+
+.registration__desc {
+    font-weight: 700;
+    margin-bottom: 25px
+}
+
+.registration__desc__breaker {
+    color: #666;
+    font-size: 16px
+}
+
+.registration__desc__link {
+    font-weight: 700;
+    color: #000
+}
+
+.registration__desc__link:hover {
+    text-decoration: underline
+}
+
+.search__global__container {
+    width: 100%;
+    padding: 20px 15px;
+    background: #ebebeb
+}
+
+.input {
+    margin: 0 0 20px;
+    display: block;
+    position: relative
+}
+
+.input__field:last-child {
+    margin-bottom: 0
+}
+
+.input__label {
+    display: block;
+    text-align: left;
+    color: #666;
+    font-size: 10px;
+    text-transform: uppercase;
+    line-height: 18px
+}
+
+.input__label--warning {
+    position: absolute;
+    color: #ff4f4f;
+    font-size: 10px;
+    bottom: 0;
+    right: -130px
+}
+
+.input__field {
+    display: block;
+    border: 1px solid #e5e5e5;
+    font-size: 12px;
+    padding: 12px;
+    border-radius: 4px;
+    background: #f8f8f7;
+    outline: none;
+    width: 405px
+}
+
+.input__field:disabled {
+    opacity: .8
+}
+
+.input__field:invalid, .input__field--wrong {
+    border: 1px solid red !important
+}
+
+.input__field--fio:focus + .input__field--fio-placeholder {
+    opacity: .3;
+    -webkit-transition: opacity .2s;
+    transition: opacity .2s
+}
+
+.input__field__fake-label {
+    display: none;
+    font-size: 16px;
+    text-overflow: ellipsis;
+    z-index: 1000;
+    position: absolute;
+    padding: 10px 14px;
+    width: 178px;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-left: 175px;
+    top: 0
+}
+
+.input__field--fake {
+    color: #fff;
+    background: #fff;
+    z-index: 1001;
+    position: relative
+}
+
+.input__field--fake:focus {
+    color: #000
+}
+
+.input__field--fake + .input__field__fake-label {
+    display: block
+}
+
+.input__field--fake:focus + .input__field__fake-label {
+    display: none
+}
+
+.radio__labels {
+    display: block;
+    overflow: hidden;
+    margin: 0 auto 15px;
+    text-align: left
+}
+
+.radio__labels .no-city {
+    display: block;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #313131;
+    padding: 20px;
+    text-align: center
+}
+
+.radio__labels__select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    display: block;
+    padding: 8px 45px 8px 15px;
+    font-size: 12px;
+    border-radius: 3px;
+    background-color: #f8f7f7;
+    background-image: url("/catalog/view/theme/tattootools/image/select-arrows.png");
+    background-position: 95%;
+    background-repeat: no-repeat;
+    -webkit-background-size: 6px;
+    background-size: 6px;
+    border: none;
+    outline: none;
+    margin: 10px 0 3px;
+    width: 320px
+}
+
+.radio__labels__select::-ms-exapnd {
+    display: none
+}
+
+.radio__labels__select--option {
+    width: 130px;
+    background: url("/catalog/view/theme/tattootools/image/select-arrow.png") no-repeat 87%;
+    background-color: #fff
+}
+
+.radio__labels__select--short {
+    width: 228px;
+    background: url("/catalog/view/theme/tattootools/image/select-arrow.png") no-repeat 93%;
+    margin-top: 0;
+    display: block
+}
+
+.input__label__radio__input {
+    display: block;
+    float: left;
+    margin: 0 15px 0 1px
+}
+
+.input__label__radio__input--payment {
+    margin: 0 20px 0 1px;
+    -webkit-appearance: radio
+}
+
+.input__label__radio__p__block {
+    display: block;
+    float: left;
+    width: 340px
+}
+
+.input__label__radio__p__block--confirm {
+    width: 360px
+}
+
+.input__label__radio__p {
+    margin: 0;
+    font-size: 12px;
+    color: #666;
+    width: 250px
+}
+
+.input__label__radio__p__warning {
+    margin: 0;
+    font-size: 12px;
+    color: #666;
+    display: none;
+    -webkit-transition: display .3s;
+    transition: display .3s
+}
+
+.input__label__radio__p__warning__red {
+    color: #ff5b5b;
+    font-weight: 500
+}
+
+.input__label__radio__p--gray {
+    color: #aaa;
+    font-size: 10px;
+    text-transform: uppercase;
+    line-height: 18px
+}
+
+.input__label__radio__cost {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+    float: right;
+    line-height: 0;
+    display: block;
+    left: 550px;
+    margin-top: -10px;
+    width: 120px;
+    text-align: right
+}
+
+.input__label__radio__cost--first {
+    margin-top: -75px
+}
+
+.input__label__radio__p--black {
+    color: #000;
+    font-weight: 400;
+    width: 300px;
+    font-size: 10px;
+    text-transform: uppercase
+}
+
+.input__label__radio {
+    float: left;
+    display: block;
+    overflow: hidden;
+    margin: 0 1px;
+    padding: 16px 1px 13px
+}
+
+.input__label__radio--payment {
+    float: none;
+    padding: 0
+}
+
+.input__label__radio__delivery__service {
+    display: block;
+    vertical-align: middle;
+    margin: 0 17px;
+    float: left
+}
+
+.input__label__list {
+    list-style: inside square;
+    padding: 0;
+    margin: 0
+}
+
+.delivery__type__header {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #666;
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    width: 500px
+}
+
+.confirm__page__header {
+    font-size: 30px;
+    margin-left: 42px
+}
+
+.confirm__page__header__table {
+    font-family: 'PT Serif', serif;
+    text-transform: uppercase;
+    margin: 12px 0 10px 42px;
+    font-size: 16px;
+    font-weight: 400
+}
+
+.confirm__button__confirm {
+    width: 130px;
+    height: 30px;
+    border: 2px solid #000;
+    background-color: #000;
+    color: #fff;
+    margin-right: 43px;
+    text-transform: uppercase;
+    font-size: 12px;
+    display: block;
+    float: right;
+    -webkit-transition: background-color .2s;
+    transition: border .2s
+}
+
+.confirm__button__confirm:hover {
+    background-color: #fff;
+    color: #666;
+    border: 2px solid #666
+}
+
+.checkout {
+    width: 960px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center
+}
+
+.checkout__float-left {
+    float: left
+}
+
+.checkout__personal-data {
+    border-right: 1px solid #e5e5e5
+}
+
+.checkout__personal-data, .checkout__shipping-data, .checkout__payment-data {
+    padding: 0 20px;
+    width: 430px
+}
+
+.checkout__payment-data {
+    margin: 0 auto
+}
+
+.checkout__header {
+    display: block;
+    font-size: 30px;
+    margin: 20px 0;
+    font-weight: 200
+}
+
+.checkout__header--inner {
+    text-align: center;
+    margin: 50px 0 20px 42px;
+    font-size: 20px
+}
+
+.sign__in__for__order {
+    float: right;
+    margin-right: 42px;
+    color: #666;
+    display: inline-block;
+    font-size: 12px;
+    text-decoration: none;
+    -webkit-transition: opacity .2s;
+    transition: opacity .2s;
+    margin-left: 100px;
+    line-height: 45px
+}
+
+.sign__in__for__order:hover {
+    opacity: .7
+}
+
+.sign__in__for__order:focus {
+    opacity: .7
+}
+
+.input__field--fio-placeholder {
+    position: absolute;
+    font-size: 16px;
+    top: 10px;
+    left: 255px;
+    color: #bbb
+}
+
+.checkout__input__name {
+    width: 200px;
+    height: 21px;
+    display: inline-block;
+    padding: 7px 12px 9px;
+    border: 2px solid #ddd;
+    margin-bottom: 18px
+}
+
+.checkout__name__name {
+    border: 0;
+    padding: 0;
+    margin: 0
+}
+
+.city-change {
+    font-size: 10px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    line-height: 18px
+}
+
+.city-change-link {
+    color: #c19566;
+    margin-left: 10px;
+    text-decoration: none;
+    border-bottom: 1px dashed
+}
+
+.city-change-link:hover {
+    border-bottom: 0
+}
+
+.city-pick-block .address__autocomplete {
+    left: 4px;
+    width: 420px
+}
+
+.shipping__loader, .payment__loader {
+    display: inline-block;
+    margin-left: 15px;
+    display: none
+}
+
+.payment__loader {
+    position: absolute;
+    height: 15px
+}
+
+.checkout-error {
+    border: 1px solid red
+}
+
+.cart__pop-up__success {
+    font-size: 12px;
+    color: #313131;
+    text-align: center;
+    padding: 20px
+}
+
+.cart__pop-up__success, .cart__pop-up__success__message {
+    display: block;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.cart__pop-up__success__message {
+    margin: 10px 0
+}
+
+.cart__pop-up__success__message--margin-bottom {
+    margin-bottom: 40px;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.checkout__error-warning {
+    width: 700px;
+    padding: 20px 0;
+    background: #fff;
+    color: red;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 10px;
+    text-transform: uppercase;
+    border: 2px solid red
+}
+
+.checkout__error-warning__message {
+    display: block
+}
+
+.button__confirm {
+    margin-bottom: 0
+}
+
+.store .checkout-data-form .checkout .alt .tip {
+    color: #999;
+    text-align: left;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding-top: 14px
+}
+
+.store .checkout-data-form .checkout .order-fields {
+    width: 698px;
+    border: 1px solid #e3d3c2;
+    border-radius: 4px;
+    margin: 39px auto 0
+}
+
+.store .checkout-data-form .checkout__personal-data {
+    margin: 0 auto;
+    width: 432px;
+    float: none;
+    border: none;
+    padding-top: 45px
+}
+
+.store .checkout-data-form .checkout__shipping-data {
+    width: 100%;
+    padding: 2px 0 0
+}
+
+.store .checkout-data-form .checkout__shipping-data .input--city {
+    display: block;
+    margin: 0 auto;
+    width: 432px;
+    float: none;
+    border: none
+}
+
+.store .checkout-data-form .checkout__shipping-data .city-pick-block .address__autocomplete {
+    left: 0;
+    width: 429px
+}
+
+.store .checkout-data-form .checkout__shipping-data .shipping__variants {
+    margin-top: 32px
+}
+
+.store .checkout-data-form .checkout__shipping-data .shipping__variants.active {
+    border-top: 1px solid #e3d3c2
+}
+
+.store .checkout-data-form .checkout__shipping-data .shipping__variants__loader {
+    width: 432px;
+    height: 160px;
+    margin: 20px auto;
+    display: none
+}
+
+.store .checkout-data-form .checkout__shipping-data .shipping__variants__loader__table {
+    height: 100%
+}
+
+.store .checkout-data-form .checkout__shipping-data .shipping__variants .radio__labels {
+    display: block;
+    margin: 0 auto;
+    width: 432px;
+    float: none;
+    border: none
+}
+
+.store .checkout-data-form .checkout__shipping-data .shipping__variants .shipping-input__fields {
+    display: block;
+    width: 432px;
+    float: none;
+    border: none
+}
+
+.store .checkout-data-form .checkout__shipping-data .shipping__variants .heading-title {
+    display: block;
+    margin: 0 auto;
+    width: 432px;
+    float: none;
+    border: none;
+    color: #999;
+    text-align: left;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding-top: 25px;
+    padding-bottom: 9px
+}
+
+.store .checkout-data-form .checkout__shipping-data .shipping__variants .input__label__radio {
+    cursor: pointer
+}
+
+.store .checkout-data-form .checkout__shipping-data .shipping__variants .input__label__radio__p.descr {
+    padding-top: 6px;
+    line-height: 16px;
+    color: #999
+}
+
+.store .checkout-data-form .checkout__shipping-data .shipping__variants .input__label__radio__p__block {
+    width: 395px;
+    position: relative
+}
+
+.store .checkout-data-form .checkout__shipping-data .shipping__variants .input__label__radio__p__block .input__label__radio__cost {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: auto;
+    margin: 0;
+    padding: 6px 0;
+    font-size: 10px;
+    color: #333;
+    left: auto;
+    right: 0
+}
+
+.store .checkout-data-form .checkout__shipping-data .shipping__variants .shipping-input__fields input {
+    color: #000
+}
+
+.store .checkout-data-form .checkout__shipping-data .shipping__variants .input-for-shipping-postcode input {
+    width: 120px !important
+}
+
+.store .checkout-data-form .checkout .row {
+    display: block;
+    clear: both;
+    margin-bottom: 20px
+}
+
+.store .checkout-data-form .checkout .row .input-for-telephone, .store .checkout-data-form .checkout .row .input-for-email {
+    width: 269px
+}
+
+.store .checkout-data-form .checkout .input__label, .store .checkout-data-form .checkout .input__label__radio {
+    float: none
+}
+
+.store .checkout-data-form .checkout .subscribe {
+    width: 432px;
+    clear: both;
+    float: none;
+    margin: -18px auto 0
+}
+
+.store .checkout-data-form .checkout .subscribe .input__label__radio {
+    padding: 10px 15px 15px 0
+}
+
+.store .checkout-data-form .checkout .submit-row {
+    background: #f8f8f6;
+    width: 100%
+}
+
+.store .checkout-data-form .checkout .submit-row .subrow-marg {
+    height: 106px;
+    margin: 0 auto;
+    width: 432px
+}
+
+.store .checkout-data-form .checkout .submit-row .subrow-marg .left-col {
+    float: left
+}
+
+.store .checkout-data-form .checkout .submit-row .subrow-marg .right-col {
+    float: right
+}
+
+.store .checkout-data-form .checkout .submit-row .subrow-marg .right-col .w8 {
+    margin-top: 32px;
+    width: 171px;
+    height: 42px;
+    background: url("/catalog/view/theme/tattootools/static/image/wait2.gif") no-repeat center
+}
+
+.store .checkout-data-form .checkout .submit-row .subrow-marg .notice, .store .checkout-data-form .checkout .submit-row .subrow-marg .button__confirm {
+    margin-top: 32px
+}
+
+.store .checkout-data-form .checkout .submit-row .subrow-marg .notice {
+    color: #333;
+    font-size: 10px;
+    text-transform: uppercase;
+    line-height: 19px;
+    padding-top: 4px
+}
+
+.store .checkout-data-form .checkout .submit-row .subrow-marg .button__confirm {
+    text-align: center
+}
+
+.checkout-success .account__page .page-header {
+    padding-top: 10px;
+    font-size: 39px;
+    padding-bottom: 40px
+}
+
+.checkout-success-bord {
+    border: 1px solid #e3d3c2;
+    border-radius: 3px;
+    width: 698px;
+    margin: 0 auto 80px
+}
+
+.checkout-success-bord .account__thanks-message {
+    padding-top: 33px;
+    font-size: 17px;
+    line-height: 22px
+}
+
+.checkout-success-bord .account__message-text {
+    margin-top: 20px;
+    line-height: 18px
+}
+
+.checkout-success-bord .account__thanks-button {
+    width: 137px;
+    text-align: center;
+    font-size: 11px;
+    display: block;
+    margin: 26px auto 24px
+}
+
+.checkout-success-bord .any-questions {
+    font-size: 14px;
+    padding-bottom: 36px;
+    line-height: 18px
+}
+
+.checkout-success-bord .any-questions .questions {
+    color: #666
+}
+
+.checkout-success-bord .any-questions .answers * {
+    color: #222
+}
+
+.checkout-success-bord .delivery-info {
+    border-top: 1px solid #e3d3c2;
+    padding-top: 34px
+}
+
+.checkout-success-bord .delivery-info .title {
+    font-size: 17px;
+    text-transform: uppercase;
+    padding-bottom: 30px
+}
+
+.checkout-success-bord .delivery-info .info {
+    width: 456px;
+    text-align: left;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 0 auto;
+    padding-bottom: 40px
+}
+
+.checkout-success-bord .delivery-info .info .row {
+    padding-bottom: 6px
+}
+
+.checkout-success-bord .delivery-info .info .row .key {
+    color: #999
+}
+
+.checkout-success-bord .delivery-info .info .row .val {
+    color: #333
+}
+
+.cart .cart-buttons {
+    height: 102px;
+    background: #f8f8f6;
+    overflow: hidden
+}
+
+.cart .cart-buttons .left {
+    float: left
+}
+
+.cart .cart-buttons .left .store-button.cart-link__fast-order {
+    -webkit-transition: none;
+    transition: none;
+    margin: 30px 29px;
+    width: 186px;
+    background: #e6e6e5 url("/catalog/view/theme/tattootools/image/phone-sprite-80.png") no-repeat left 18px top -50px;
+    border: 1px solid #e6e6e5;
+    color: #3a3a36;
+    cursor: pointer;
+    padding-left: 44px
+}
+
+.cart .cart-buttons .left .store-button.cart-link__fast-order:hover {
+    background-color: #c19566;
+    border: 1px solid #c19566;
+    color: #fff;
+    background-position: left 18px top 10px
+}
+
+.cart .cart-buttons .right {
+    float: right
+}
+
+.cart .cart-buttons .right .five-min {
+    float: left;
+    line-height: 102px;
+    color: #999;
+    font-size: 11px;
+    text-transform: uppercase
+}
+
+.cart .cart-buttons .right .btn {
+    float: right
+}
+
+.cart .cart-buttons .right .btn .store-button {
+    margin: 30px 29px
+}
+
+.cart .back-to-cat .store-button {
+    margin: 0 auto;
+    display: block
+}
+
+.cart .cart-empty__message {
+    margin-bottom: 40px;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #999
+}
+
+.cart .store-button {
+    height: 40px;
+    line-height: 42px;
+    display: block;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 7px;
+    -webkit-transition: color .2s, border-color .2s, background .2s;
+    transition: color .2s, border-color .2s, background .2s;
+    text-align: center;
+    width: 144px;
+    font-size: 14px;
+    font-weight: 400
+}
+
+.cart__overflow {
+    border: 1px solid #e3d3c2;
+    border-radius: 4px
+}
+
+.cart__overflow .cart__table__container .cart-products-line {
+    padding: 0;
+    margin: 29px;
+    border: none
+}
+
+.cart__overflow .cart__table__container .cart-products-line:hover {
+    border: none
+}
+
+.cart .page-header {
+    overflow: hidden;
+    height: 61px
+}
+
+.cart .page-header .total {
+    float: left;
+    font-size: 14px;
+    line-height: 58px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: #777
+}
+
+.cart .page-header .buy {
+    float: right
+}
+
+.cart .page-header .title {
+    margin: 0 280px
+}
+
+.radio__payment_methods .input__label__radio__p--black, .radio__payment_methods .input__label__radio__p {
+    width: auto !important
+}
+
+.store .checkout-data-form .checkout__shipping-data .shipping__variants .shipping-input__fields {
+    padding-top: 20px;
+    margin: 0 auto 0 30px
+}
+
+.store .checkout-data-form .checkout__shipping-data .shipping__variants .shipping-input__fields input {
+    width: 296px
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'MuseoSans', sans-serif
+}
+
+input {
+    outline: none
+}
+
+a {
+    text-decoration: none
+}
+
+.nosel {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+    font-weight: 300;
+    overflow-x: hidden
+}
+
+.mini-wrap {
+    position: relative;
+    width: 960px;
+    margin: 0 auto
+}
+
+.mini-wrap__overflow {
+    overflow: hidden
+}
+
+.store {
+    width: 100%;
+    min-width: 1000px;
+    position: relative;
+    margin: 0 auto
+}
+
+.header-substitute {
+    height: 70px
+}
+
+.store-button {
+    text-align: right;
+    padding: 14px 22px;
+    background: #c19566;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 3px;
+    border: 1px solid #c19566;
+    -webkit-transition: color .2s, border-color .2s, background .2s;
+    transition: color .2s, border-color .2s, background .2s;
+    outline: none;
+    cursor: pointer
+}
+
+.store-button:hover {
+    background: #fff;
+    color: #c19566
+}
+
+.store-button--disabled {
+    opacity: .6;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%)
+}
+
+.store-button--disabled:hover {
+    background: #c19566;
+    color: #fff
+}
+
+.add-to-cart-form {
+    display: block;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    height: 42px;
+    text-align: center
+}
+
+.add-to-cart-form--disabled {
+    opacity: .3
+}
+
+.add-to-cart {
+    display: block;
+    background-repeat: no-repeat;
+    height: 52px;
+    width: 173px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 52px;
+    font-weight: 400;
+    text-align: center !important;
+    padding: 0 0 0 30px !important;
+    white-space: nowrap
+}
+
+.add-to-cart--main {
+    background-image: url("/catalog/view/theme/tattootools/static/image/cart-icon-white.png");
+    color: #fff;
+    background-color: #c29566;
+    background-position: 26px 16px !important
+}
+
+.add-to-cart--main:hover {
+    background-image: url("/catalog/view/theme/tattootools/static/image/cart-icon.png");
+    background-position: 40px 12px;
+    background-repeat: no-repeat
+}
+
+.add-to-cart.added {
+    background-image: url("/catalog/view/theme/tattootools/static/image/cart-icon-2.png");
+    color: #c29566;
+    background-color: #ededed;
+    background-position: 26px 16px !important;
+    z-index: 2
+}
+
+.add-to-cart.added:hover {
+    background-repeat: no-repeat
+}
+
+.add-to-cart__hidden-input {
+    display: none
+}
+
+.add-to-cart__label {
+    height: 52px;
+    width: 173px;
+    display: block;
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden
+}
+
+.added-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    overflow: hidden;
+    -webkit-transition: width .5s;
+    transition: width .5s
+}
+
+.added-container--immediate-show {
+    -webkit-transition: none !important;
+    transition: none !important
+}
+
+.centered {
+    text-align: center
+}
+
+.product-page-add-to-cart {
+    position: relative
+}
+
+.no-float {
+    float: none !important
+}
+
+.page-header, .sitemap__header {
+    display: block;
+    font-size: 42px;
+    font-weight: 300
+}
+
+.simple-text {
+    display: block;
+    color: #666;
+    font-size: 10px;
+    text-transform: uppercase;
+    margin: 20px 0
+}
+
+.taller {
+    font-size: 12px;
+    text-transform: none
+}
+
+.store-phone {
+    display: block;
+    font-size: 16px;
+    color: #c19566
+}
+
+.mail {
+    display: block;
+    overflow: hidden;
+    margin: 20px 0
+}
+
+.mail__icon {
+    display: block;
+    float: left;
+    margin: 2px 10px 0 0
+}
+
+.mail__text {
+    display: block;
+    float: left;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #555;
+    line-height: 18px;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.mail__text:hover {
+    color: #c19566
+}
+
+.overflow {
+    overflow: hidden
+}
+
+a.linke {
+    color: #4c4c4c;
+    -webkit-transition: color .2s;
+    transition: color .2s;
+    font-weight: 300
+}
+
+a.linke:hover {
+    color: #c19566
+}
+
+.load-more {
+    height: 80px;
+    width: 100%;
+    background: #c19566;
+    overflow: hidden
+}
+
+.loader-animation {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    padding-top: 20px
+}
+
+.sprito {
+    background-image: url("/catalog/view/theme/tattootools/static/image/sprito.png");
+    background-repeat: no-repeat
+}
+
+.disco-price .disco-final {
+    display: inline-block;
+    color: #f56363;
+    margin-right: 5px
+}
+
+.disco-price .disco-initial {
+    display: inline-block;
+    position: relative
+}
+
+.disco-price .disco-initial:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    margin: 0;
+    height: 1px;
+    background: 0% 0% #f56363
+}
+
+.contacts__overflow {
+    overflow: hidden;
+    margin-top: 30px
+}
+
+.contacts__list {
+    float: left;
+    width: 420px;
+    padding: 0 30px
+}
+
+.contacts__list__main {
+    display: block;
+    font-size: 16px;
+    color: #555
+}
+
+.contacts__list__description {
+    display: block;
+    font-size: 12px;
+    color: #555;
+    margin: 20px 0
+}
+
+.contacts__faq {
+    float: left;
+    width: 418px;
+    border-left: 2px solid #f3f2ea;
+    padding: 0 30px
+}
+
+.dd-tip {
+    display: block;
+    position: absolute;
+    opacity: 0;
+    top: 105%;
+    left: 50%;
+    width: 200px;
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid #d9d9d9;
+    -webkit-box-shadow: 0 1px 6px rgba(100, 100, 100, .2);
+    box-shadow: 0 1px 6px rgba(100, 100, 100, .2);
+    margin-left: -100px;
+    -webkit-transition: opacity .3s, top .3s;
+    transition: opacity .3s, top .3s;
+    cursor: default
+}
+
+.dd-tip .dd-corn {
+    width: 22px;
+    height: 11px;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -10px;
+    background-position: top 0 left -265px
+}
+
+.dd-tip .dd-menu {
+    padding: 7px 0
+}
+
+.dd-tip .dd-menu .dd-menu-link {
+    display: block;
+    color: #2681c9;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 20px;
+    padding: 8px 20px
+}
+
+.dd-tip .dd-menu .dd-menu-link.help-ico .ico {
+    width: 21px;
+    height: 21px;
+    background-position: top -267px left -216px;
+    float: left;
+    margin-right: 10px
+}
+
+.dd-tip .dd-menu .dd-menu-link:hover {
+    background-color: #f7f7f7
+}
+
+.dd-tip .dd-menu .dd-menu-link:active {
+    background-color: #f0f0f0
+}
+
+.dd-tip .dd-menu .sep {
+    border-top: 1px solid #d9d9d9;
+    margin: 7px 0;
+    height: 0;
+    width: 100%
+}
+
+.delivery-page__shipping-method__row {
+    width: 100%;
+    margin: 20px 0;
+    font-size: 10px;
+    text-transform: uppercase;
+    position: relative
+}
+
+.delivery-page__shipping-method__row__heading {
+    display: block;
+    text-align: left
+}
+
+.delivery-page__shipping-method__row__paragraph {
+    display: block;
+    text-align: left;
+    text-transform: none
+}
+
+.delivery-page__shipping-method__row__price {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-weight: 600
+}
+
+.delivery-page__shipping-method__outpost-head {
+    font-size: 10px;
+    text-transform: uppercase;
+    position: relative
+}
+
+.shipping__variants {
+    margin-bottom: 30px
+}
+
+.shipping__variants__loader {
+    height: 300px;
+    background: #f5f5f5;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px
+}
+
+.shipping__variants__loader__table {
+    width: 100%;
+    height: 300px;
+    text-align: center
+}
+
+.shipping__variants__loader__table__message {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #666
+}
+
+.shipping__variants__loader__table__image {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    background: url("/catalog/view/theme/tattootools/image/loader-bea.gif");
+    background-position: center;
+    -webkit-background-size: 30px;
+    background-size: 30px
+}
+
+.shipping-input__fields {
+    display: none
+}
+
+#fullOrderErrors {
+    display: none;
+    opacity: 0;
+    -webkit-transition: opacity .2s;
+    transition: opacity .2s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .5);
+    z-index: 30000
+}
+
+#fullOrderErrors, #fullOrderErrors table {
+    width: 100%;
+    height: 100%
+}
+
+#fullOrderErrors table tr td {
+    vertical-align: middle;
+    text-align: center
+}
+
+#fullOrderErrors table tr td .shadow-content {
+    display: inline-block;
+    width: 400px;
+    background: #fff;
+    border-radius: 2px;
+    margin-top: -100px;
+    position: relative
+}
+
+#fullOrderErrors table tr td .shadow-content .body {
+    padding: 5px 60px 20px 30px
+}
+
+#fullOrderErrors table tr td .shadow-content .body p {
+    padding: 0;
+    margin: 15px 0 0;
+    text-align: left
+}
+
+#fullOrderErrors table tr td .shadow-content .head {
+    position: relative
+}
+
+#fullOrderErrors table tr td .shadow-content .head .x {
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    position: absolute;
+    cursor: pointer;
+    display: block;
+    width: 36px;
+    height: 36px;
+    top: 12px;
+    right: 12px;
+    background: url("/catalog/view/theme/tattootools/image/cross-delete.png") no-repeat center;
+    -webkit-background-size: 15px;
+    background-size: 15px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%)
+}
+
+#fullOrderErrors table tr td .shadow-content .head .x:hover {
+    opacity: .8
+}
+
+.features-row {
+    display: none;
+    width: 100%;
+    background: #fafafa
+}
+
+.features-row .fix-w {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    height: 195px
+}
+
+.features-row .fix-w .el {
+    display: inline-block;
+    vertical-align: top;
+    width: 215px
+}
+
+.features-row .fix-w .el .ico {
+    width: 100%;
+    height: 70px;
+    margin-top: 30px;
+    background-position: center;
+    background-repeat: no-repeat
+}
+
+.features-row .fix-w .el .ico.phone {
+    background-image: url("/catalog/view/theme/tattootools/static/image/feature-phone.png")
+}
+
+.features-row .fix-w .el .ico.money {
+    background-image: url("/catalog/view/theme/tattootools/static/image/feature-money.png")
+}
+
+.features-row .fix-w .el .ico.delivery {
+    background-image: url("/catalog/view/theme/tattootools/static/image/feature-delivery.png")
+}
+
+.features-row .fix-w .el .ico.star {
+    background-image: url("/catalog/view/theme/tattootools/static/image/feature-star.png")
+}
+
+.features-row .fix-w .el .descr {
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px
+}
+
+@font-face {
+    font-family: "MuseoSans";
+    font-style: normal;
+    font-weight: 100;
+    src: url("/catalog/view/theme/tattootools/fonts/MuseoSansCyrl-100.otf?v=1") format("opentype")
+}
+
+@font-face {
+    font-family: "MuseoSans";
+    font-style: normal;
+    font-weight: 300;
+    src: url("/catalog/view/theme/tattootools/fonts/MuseoSansCyrl-300.otf?v=1") format("opentype")
+}
+
+@font-face {
+    font-family: "MuseoSans";
+    font-style: normal;
+    font-weight: 500;
+    src: url("/catalog/view/theme/tattootools/fonts/MuseoSansCyrl-500.otf?v=1") format("opentype")
+}
+
+@font-face {
+    font-family: "MuseoSans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("/catalog/view/theme/tattootools/fonts/MuseoSansCyrl-700.otf?v=1") format("opentype")
+}
+
+@font-face {
+    font-family: "MuseoSans";
+    font-style: normal;
+    font-weight: 900;
+    src: url("/catalog/view/theme/tattootools/fonts/MuseoSansCyrl-900.otf?v=1") format("opentype")
+}
+
+.store-footer {
+    min-width: 1000px;
+    overflow: hidden;
+    background: #2e2e30;
+    cursor: default;
+    opacity: 0;
+    -webkit-transition: opacity .3s;
+    transition: opacity .3s;
+    position: relative
+}
+
+.store-footer__white-menu {
+    vertical-align: top;
+    text-align: center
+}
+
+.store-footer__social-links {
+    float: left;
+    width: 200px;
+    height: 130px;
+    overflow: hidden;
+    padding-top: 40px
+}
+
+.store-footer__logo {
+    width: 200px;
+    float: left;
+    height: 150px
+}
+
+.store-footer__logo__image {
+    display: block;
+    margin-top: 28px;
+    width: 50px;
+    height: 66px;
+    -webkit-background-size: 67px;
+    background-size: 67px;
+    background-repeat: no-repeat;
+    image-rendering: pixelated
+}
+
+.store-footer__float-left {
+    float: left
+}
+
+.store-footer__center {
+    width: 560px
+}
+
+.store-footer__upper-links {
+    padding: 44px 0 16px
+}
+
+.store-footer__store-mail {
+    display: inline-block;
+    color: #999;
+    font-size: 11px;
+    line-height: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-right: 10px;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    vertical-align: top;
+    background: url("/catalog/view/theme/tattootools/image/mail-icon.png") no-repeat left 5px top 17px;
+    padding-left: 30px
+}
+
+.store-footer__store-mail:hover {
+    color: #ddd
+}
+
+.store-footer__info-link {
+    display: inline-block;
+    color: #fff;
+    font-size: 11px;
+    text-transform: uppercase;
+    margin-right: 18px;
+    font-weight: 700
+}
+
+.store-footer__info-link:hover {
+    color: #ddd
+}
+
+.store-footer__phone {
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 500;
+    color: #c19566;
+    margin-right: 15px;
+    line-height: 46px;
+    vertical-align: top;
+    -webkit-transition: opacity .2s;
+    transition: opacity .2s
+}
+
+.store-footer__phone:hover {
+    opacity: .8
+}
+
+.store-footer__hours-of-operations {
+    display: inline-block;
+    color: #999;
+    font-size: 11px;
+    line-height: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-right: 20px;
+    vertical-align: top
+}
+
+.store-footer .mobile-apps {
+    margin: 11px 0 6px
+}
+
+.store-footer .mobile-apps .app-install {
+    width: 130px;
+    height: 43px;
+    margin: 0 5px;
+    display: inline-block
+}
+
+.store-footer .mobile-apps .app-install--appstore {
+    background-image: url("/catalog/view/theme/tattootools/static/image/appstore.png")
+}
+
+.store-footer .mobile-apps .app-install--googleplay {
+    background-image: url("/catalog/view/theme/tattootools/static/image/googleplay.png")
+}
+
+.social-button {
+    display: block;
+    float: right;
+    width: 26px;
+    height: 26px;
+    margin-left: 12px;
+    -webkit-background-size: 22px;
+    background-size: 22px;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.social-button:hover {
+    opacity: .8
+}
+
+.social-button:last-of-type {
+    margin-left: 0
+}
+
+.social-button--vk {
+    background-position: -39px -29px
+}
+
+.social-button--vk, .social-button--inst {
+    background-image: url("/catalog/view/theme/tattootools/image/spritesheet.png");
+    -webkit-background-size: 67px;
+    background-size: 67px;
+    image-rendering: pixelated
+}
+
+.social-button--inst {
+    background-position: -40px -1px
+}
+
+.social-button--yt {
+    background-image: url("/catalog/view/theme/tattootools/image/social-yt.png")
+}
+
+.go-to-mob {
+    color: #fff;
+    text-align: center;
+    display: block;
+    padding: 10px 0;
+    font-size: 12px;
+    cursor: pointer
+}
+
+.forgotten-page {
+    padding: 160px 0
+}
+
+.forgotten-page__form {
+    display: block;
+    width: 500px;
+    padding: 20px 30px;
+    background: #c19566;
+    margin: 20px auto 0;
+    text-align: center
+}
+
+.forgotten-page__form__input {
+    display: inline-block;
+    padding: 9px;
+    border: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    width: 240px;
+    margin-right: 10px;
+    outline: none
+}
+
+.forgotten-page__form__submit {
+    background: #af885f !important;
+    color: #fff !important
+}
+
+.forgotten-page__form__submit:hover {
+    background: #fff !important;
+    color: #313131 !important
+}
+
+.grids {
+    width: 100%;
+    max-width: 2400px;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+.grids.mainpage, .grids__item {
+    background: #f6f6f6
+}
+
+.grids__item {
+    float: left;
+    position: relative;
+    width: 50%
+}
+
+.grids__item .main-selection {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%
+}
+
+.grids__item .product {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 50%
+}
+
+.grids__item .product__image {
+    display: block;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 50%;
+    padding-bottom: 50%;
+    height: 0;
+    background-color: #f6f6f6
+}
+
+.grids__item .product__image.left {
+    left: 0
+}
+
+.grids__item .product__image.right {
+    right: 0
+}
+
+.grids__item .product__text {
+    display: block;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    width: 50%;
+    padding-bottom: 50%;
+    height: 0;
+    background: #f1f1ef
+}
+
+.grids__item .product__text__inner {
+    position: absolute
+}
+
+.grids__item .product__text.left {
+    left: 0
+}
+
+.grids__item .product__text.right {
+    right: 0
+}
+
+.grids.category, .grids.selection, .recommended-items {
+    padding-top: 10px
+}
+
+.grids.category, .grids.selection, .recommended-items, .grids.search {
+    width: 972px;
+    margin: 0 auto;
+    position: relative;
+    left: -6px;
+    clear: both;
+    padding-bottom: 40px
+}
+
+.grids.category .product__no-float, .grids.selection .product__no-float, .recommended-items .product__no-float, .grids.search .product__no-float {
+    width: 231px;
+    height: 385px;
+    margin: 6px
+}
+
+.grids.category .product__no-float:hover .product__no-float__text__arrow-top, .grids.selection .product__no-float:hover .product__no-float__text__arrow-top, .recommended-items .product__no-float:hover .product__no-float__text__arrow-top, .grids.search .product__no-float:hover .product__no-float__text__arrow-top {
+    opacity: 1
+}
+
+.grids.category .product__no-float__image, .grids.selection .product__no-float__image, .recommended-items .product__no-float__image, .grids.search .product__no-float__image {
+    width: 231px;
+    height: 231px;
+    background: #f6f6f6 url("/catalog/view/theme/tattootools/image/logo-gray-sm.png") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    opacity: 1
+}
+
+.grids.category .product__no-float__text, .grids.selection .product__no-float__text, .recommended-items .product__no-float__text, .grids.search .product__no-float__text {
+    width: 231px;
+    height: 160px;
+    position: relative;
+    z-index: 2;
+    background: #fff;
+    cursor: default
+}
+
+.grids.category .product__no-float__text__arrow-top, .grids.selection .product__no-float__text__arrow-top, .recommended-items .product__no-float__text__arrow-top, .grids.search .product__no-float__text__arrow-top {
+    position: absolute;
+    top: -44px;
+    right: 50%;
+    margin-right: -22px;
+    width: 0;
+    height: 0;
+    border: 22px solid transparent;
+    z-index: 200;
+    -webkit-transition: border .4s;
+    transition: border .4s
+}
+
+.product__text__inner .watch-moar {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 300;
+    color: #c19566;
+    text-transform: uppercase;
+    white-space: nowrap;
+    border-bottom: 1px dotted #c19566;
+    position: absolute;
+    top: 50%
+}
+
+.product__text__inner .watch-moar:hover {
+    opacity: .8
+}
+
+.product__text__inner .watch-moar b {
+    display: block;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    width: 20px;
+    height: 18px;
+    margin-left: 4px;
+    background: url("/catalog/view/theme/tattootools/image/rc.png") no-repeat center;
+    -webkit-background-size: 8px;
+    background-size: 8px
+}
+
+.top-header {
+    position: relative;
+    min-width: 1000px;
+    cursor: default;
+    height: 50px;
+    background: #2e2e30;
+    z-index: 778
+}
+
+.top-header .mini-wrap {
+    height: 50px
+}
+
+.top-header__phone-and-time {
+    float: left
+}
+
+.top-header__phone-and-time__phone {
+    display: block;
+    float: left;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 50px;
+    color: #c19566;
+    margin-right: 20px;
+    -webkit-transition: opacity .2s;
+    transition: opacity .2s
+}
+
+.top-header__phone-and-time__phone:hover {
+    opacity: .8
+}
+
+.top-header__phone-and-time__time {
+    display: block;
+    float: left;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 52px;
+    color: #aaa;
+    text-transform: uppercase
+}
+
+.top-header__contacts {
+    float: right;
+    overflow: hidden
+}
+
+.top-header__contacts__delimiter {
+    display: block;
+    float: left;
+    height: 16px;
+    margin: 17px 0;
+    border-left: 1px solid #c19566;
+    opacity: .5
+}
+
+.top-header__contacts__mail {
+    display: block;
+    float: left;
+    line-height: 52px;
+    color: #aaa;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 500;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    background: url("/catalog/view/theme/tattootools/image/mail-icon.png") no-repeat left 11px top 19px;
+    padding-left: 43px;
+    padding-right: 29px
+}
+
+.top-header__contacts__mail:hover {
+    color: #ddd
+}
+
+.top-header__contacts__mail-icon {
+    display: block;
+    float: left;
+    margin-top: 16px;
+    padding-right: 15px
+}
+
+.top-header__contacts__mail-icon__image {
+    width: 18px
+}
+
+.top-header__contacts__social {
+    display: block;
+    float: left;
+    line-height: 52px;
+    color: #aaa;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 500;
+    padding-left: 25px
+}
+
+.social-links {
+    padding-top: 12px;
+    display: block;
+    float: right;
+    margin-left: 20px
+}
+
+.store-header-substitute {
+    height: 165px;
+    -webkit-transition: height .2s linear;
+    transition: height .2s linear;
+    min-width: 960px
+}
+
+.store-header-substitute.collapsed, .store-header.collapsed, .store-header.collapsed .store-header__table {
+    height: 70px
+}
+
+.store-header.collapsed .store-menu {
+    top: -1px
+}
+
+.store-header {
+    min-width: 1000px;
+    height: 165px;
+    background-color: rgba(234, 234, 224, .94);
+    width: 100%;
+    z-index: 777;
+    left: 0;
+    top: 50px;
+    position: fixed
+}
+
+.store-header__search {
+    height: 0;
+    position: relative;
+    top: -1px;
+    z-index: 123;
+    width: 100%;
+    background: #f2f2ea;
+    -webkit-box-shadow: inset 0 1px 9px 0 rgba(66, 47, 50, .15);
+    box-shadow: inset 0 1px 9px 0 rgba(66, 47, 50, .15);
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.store-header__search__icon {
+    display: block;
+    position: absolute;
+    background-image: url("/catalog/view/theme/tattootools/image/loupe.svg");
+    top: 16px;
+    opacity: .15;
+    left: 5px;
+    width: 20px;
+    height: 22px;
+    -webkit-background-size: 20px;
+    background-size: 20px;
+    background-repeat: no-repeat
+}
+
+.store-header__search--active {
+    height: 50px
+}
+
+.store-header__search__input {
+    display: block;
+    -webkit-appearance: none;
+    background: 0 0;
+    border: none;
+    height: 50px;
+    width: 700px;
+    padding: 0 46px;
+    outline: none
+}
+
+.store-header__search__results {
+    position: relative;
+    z-index: 123
+}
+
+.store-header__search__results__empty {
+    display: none;
+    margin-top: 120px;
+    font-size: 14px;
+    color: #111;
+    font-weight: 200;
+    text-align: center
+}
+
+.store-header__inner-page {
+    height: 70px;
+    width: 100%;
+    min-width: 1000px;
+    background-color: rgba(234, 234, 224, .94);
+    position: fixed;
+    z-index: 777;
+    top: 50px;
+    left: 0
+}
+
+.store-header__fixed {
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0
+}
+
+.store-header__table {
+    width: 100%;
+    height: 165px
+}
+
+.store-header__table.collapsed {
+    height: 70px
+}
+
+.store-header__table__left {
+    width: 230px
+}
+
+.store-header__table__center {
+    width: 500px
+}
+
+.store-header__table__right {
+    width: 230px
+}
+
+.store-header__table__fixed, .store-header__table__inner-page {
+    height: 70px
+}
+
+.store-header__relative {
+    position: relative;
+    height: 165px
+}
+
+.store-header__logo {
+    display: block;
+    text-align: center;
+    width: 346px;
+    margin: 0 auto;
+    color: #000;
+    background-position: center;
+    -webkit-background-size: 346px;
+    background-size: 346px;
+    background-repeat: no-repeat;
+    height: 70px;
+    opacity: .75;
+    -webkit-transition: opacity .4s;
+    transition: opacity .4s
+}
+
+.store-header__logo:hover {
+    opacity: 1
+}
+
+.store-header__logo.rotato {
+    opacity: 0
+}
+
+.store-header__logo.rotatoed {
+    background-image: url("/catalog/view/theme/tattootools/image/menu-header.png")
+}
+
+.store-header__logo--mini {
+    -webkit-background-size: 200px;
+    background-size: 200px
+}
+
+.store-header__menu {
+    display: inline-block;
+    cursor: pointer;
+    height: 23px;
+    padding: 16px 0 10px
+}
+
+.store-header__menu__icon {
+    display: block;
+    float: left;
+    width: 29px;
+    height: 23px
+}
+
+.store-header__menu__icon__menu-part {
+    display: block;
+    height: 3px;
+    background: #313131;
+    margin-bottom: 7px
+}
+
+.store-header__menu__icon__menu-part:last-of-type {
+    margin-bottom: 0
+}
+
+.store-header__menu__text {
+    display: block;
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 26px;
+    padding: 0 18px
+}
+
+.store-header__right-menu {
+    padding: 0 10px 0 0
+}
+
+.store-header__right-menu__item {
+    display: block;
+    width: 20px;
+    height: 20px;
+    float: right;
+    background-position: center;
+    -webkit-background-size: 20px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    position: relative;
+    cursor: pointer;
+    margin-left: 30px
+}
+
+.store-header__right-menu__item--search {
+    background-image: url("/catalog/view/theme/tattootools/image/loupe.svg");
+    -webkit-background-size: 18px;
+    background-size: 18px
+}
+
+.store-header__right-menu__item--user {
+    background-image: url("/catalog/view/theme/tattootools/image/user.svg");
+    background-position: top -1px center
+}
+
+.store-header__right-menu__item--cart {
+    background-image: url("/catalog/view/theme/tattootools/image/cart.svg")
+}
+
+.store-header__right-menu__item__cart-counter {
+    position: absolute;
+    z-index: 8;
+    padding: 0 3px;
+    min-width: 14px;
+    height: 20px;
+    background: #c19566;
+    color: #fff;
+    border-radius: 100%;
+    top: -8px;
+    text-align: center;
+    line-height: 22px;
+    right: -8px;
+    font-size: 10px;
+    font-weight: 700
+}
+
+.header-fixed-fix {
+    height: 0
+}
+
+.header-fixed-fix__active {
+    height: 95px
+}
+
+body {
+    min-width: 960px
+}
+
+.home {
+    display: block
+}
+
+.home__reg-success {
+    opacity: 0;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    left: 0;
+    z-index: 777;
+    background: #c19566;
+    -webkit-transform: translate3d(0, 50px, 0);
+    -ms-transform: translate3d(0, 50px, 0);
+    transform: translate3d(0, 50px, 0);
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    top: -50px;
+    vertical-align: top
+}
+
+.home__reg-success--active {
+    opacity: 1
+}
+
+.home__reg-success__text {
+    display: inline-block;
+    line-height: 50px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #fff
+}
+
+.home__reg-success__buttons {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 25px
+}
+
+.home__reg-success__buttons__item {
+    display: block;
+    margin-left: 5px;
+    color: #af885f;
+    border-radius: 6px;
+    margin-top: 3px;
+    background: #fff !important
+}
+
+.home__reg-success__buttons__item:hover {
+    background: #af885f !important;
+    color: #fff
+}
+
+.home__reg-success__closer {
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 16px;
+    cursor: pointer;
+    right: 16px;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    background-image: url("/catalog/view/theme/tattootools/image/cross-white.png");
+    -webkit-background-size: 18px;
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+.home__reg-success__closer:hover {
+    opacity: .8
+}
+
+.get-discounts-vk {
+    display: none !important;
+    text-align: center;
+    background: #eae9e0;
+    height: 190px;
+    line-height: 190px;
+    display: block;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    position: relative
+}
+
+.get-discounts-vk .text {
+    color: #c19566;
+    text-transform: uppercase;
+    font-size: 27px;
+    letter-spacing: -.1px;
+    line-height: 190px;
+    vertical-align: middle
+}
+
+.get-discounts-vk .corn {
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    margin-left: 10px;
+    display: inline-block;
+    background: url("/catalog/view/theme/tattootools/image/round-arr-r.png") no-repeat center
+}
+
+.get-discounts-vk:hover {
+    opacity: .8
+}
+
+.get-discounts-vk:active {
+    opacity: .6
+}
+
+.howto__fake-div {
+    position: absolute;
+    width: 50%;
+    height: 80%;
+    border-right: 1px dotted #c29664
+}
+
+.howto__grids {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    z-index: 55
+}
+
+.howto__grid {
+    width: 100%;
+    overflow: hidden;
+    overflow-x: visible;
+    margin: 20px 0
+}
+
+.howto__grid__inner__odd {
+    float: left;
+    width: 50%;
+    padding: 30px;
+    border-radius: 60px
+}
+
+.howto__grid__inner__odd:hover {
+    background: #f7f7f7
+}
+
+.howto__grid__inner__even {
+    float: right;
+    width: 50%;
+    padding: 30px;
+    border-radius: 40px
+}
+
+.howto__grid__inner__even:hover {
+    background: #f7f7f7
+}
+
+.howto__grid__step {
+    display: inline-block;
+    font-size: 24px;
+    border: 2px solid #c29664;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 52px;
+    font-weight: 200;
+    color: #c29664;
+    width: 50px;
+    height: 50px;
+    background: #fff
+}
+
+.howto__grid__step--odd {
+    float: right;
+    margin-right: 3px
+}
+
+.howto__grid__step--even {
+    float: left;
+    margin-left: 3px
+}
+
+.howto__grid__step__link {
+    font-size: 14px;
+    color: #c29664
+}
+
+.howto__grid__text {
+    font-size: 14px;
+    font-weight: 200;
+    color: #444;
+    padding: 0 20px;
+    width: 360px;
+    float: right
+}
+
+.joystick-block {
+    width: 110px;
+    padding: 5px;
+    border: 1px solid #f3f2ea;
+    background: #f8f8f7;
+    overflow: hidden;
+    border-radius: 4px;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.joystick-block--disabled {
+    opacity: .2;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%)
+}
+
+.joystick__button {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #bfbfbf;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    color: #bfbfbf;
+    line-height: 28px;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    border-radius: 4px
+}
+
+.joystick__button--enabled:hover {
+    background: #c19566;
+    color: #fff;
+    border: 1px solid #c19566
+}
+
+.joystick__button__minus {
+    float: left;
+    line-height: 30px;
+    font-size: 14px
+}
+
+.joystick__button__plus {
+    float: right
+}
+
+.joystick__input {
+    display: inline-block;
+    width: 46px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: #f8f8f7;
+    float: left;
+    text-align: center;
+    height: 30px;
+    outline: none;
+    font-size: 16px;
+    color: #858585
+}
+
+.login-page__errors {
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 20px 0;
+    background: #fff;
+    color: red;
+    border: 2px solid red;
+    margin: 15px 0
+}
+
+.login-page__errors__item {
+    padding: 2px
+}
+
+.login-page__errors__item:first-of-type {
+    margin-top: 15px
+}
+
+.login-page__form {
+    display: inline-block;
+    width: 300px;
+    padding: 20px
+}
+
+.login-page__form__input {
+    display: block;
+    border: 1px solid #f3f2ea;
+    font-size: 12px;
+    padding: 12px;
+    border-radius: 4px;
+    background: #f8f8f7 !important;
+    outline: none;
+    width: 230px;
+    margin: 0 auto 15px;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.login-page__form__input:hover {
+    background: #fff !important;
+    border: 1px solid #f8f8f7 !important
+}
+
+.login-page__form__input:focus {
+    background: #fff !important;
+    border: 1px solid #f8f8f7 !important
+}
+
+.login-page__form__input--password {
+    text-transform: none
+}
+
+.login-page__form__input--invalid {
+    border: 1px solid #ff5140
+}
+
+.login-page__form__input__description {
+    display: block;
+    text-align: left;
+    font-size: 10px;
+    padding: 5px 25px;
+    text-transform: uppercase;
+    color: #313131
+}
+
+.login-page__form__submit {
+    display: inline-block;
+    margin: 20px
+}
+
+.login-page__form__remind-password {
+    display: inline-block;
+    text-align: center;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #c19566;
+    border-bottom: 1px dotted #c19566;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.login-page__form__remind-password:hover {
+    opacity: .7
+}
+
+.login-page__register-link {
+    margin-top: 0;
+    display: inline-block;
+    font-size: 10px;
+    color: #c19566;
+    border-bottom: 1px dotted #c19566
+}
+
+.login-page__warning {
+    display: block;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: red;
+    margin: 0 0 20px
+}
+
+.login__breaker {
+    width: 280px;
+    height: 2px;
+    background: #ebebeb;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    margin: 0 auto 30px
+}
+
+.login__sign__up__order__block {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 0 8px;
+    position: relative
+}
+
+.login__sign__up__order {
+    margin: 0 auto
+}
+
+.login__sign__up__order--or {
+    display: block;
+    text-align: center;
+    top: -4px;
+    position: absolute;
+    font-size: 10px;
+    text-transform: uppercase
+}
+
+.login__social {
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 12px 12px 12px 50px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 37px;
+    vertical-align: middle;
+    -webkit-transition: opacity .2s;
+    transition: opacity .2s;
+    font-weight: 400;
+    border-radius: 4px
+}
+
+.login__social.login__social--vk {
+    margin-top: 30px;
+    background-color: #6488ac;
+    background-image: url("/catalog/view/theme/tattootools/image/vk-ex-small-logo.png");
+    background-position: 10px 12px;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.login__social.login__social--vk:hover {
+    opacity: .7
+}
+
+.store-menu {
+    position: fixed;
+    width: 100%;
+    display: none;
+    z-index: 20000
+}
+
+.store-menu--active {
+    display: block
+}
+
+.menu-nav {
+    z-index: 10000;
+    width: 100%;
+    text-transform: uppercase
+}
+
+.menu-nav__heading {
+    padding: 20px 15px;
+    background: #fff;
+    height: 34px;
+    display: inline-block;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .2)
+}
+
+.menu-nav__lines {
+    width: 50%;
+    height: auto;
+    padding: 31px 0;
+    background: #fff;
+    position: relative;
+    float: left;
+    z-index: 10;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-right: 1px solid #eff0e9
+}
+
+.menu-nav__line {
+    z-index: 10000;
+    position: relative
+}
+
+.menu-nav__line a {
+    letter-spacing: 1px;
+    padding: 3px 20px 5px 32px;
+    display: block;
+    line-height: 12px
+}
+
+.menu-nav__line--selected a {
+    color: #bf9465
+}
+
+.menu-nav__line--selected div {
+    background-position: 0 0 !important
+}
+
+.menu-nav__line--selected .menu-nav__link--corner {
+    background: url("/catalog/view/theme/tattootools/image/spritesheet.png") -5px -5px !important
+}
+
+.menu-nav__link {
+    color: #313131;
+    height: 20px;
+    font-size: 12px;
+    font-weight: 500
+}
+
+.menu-nav__link--text {
+    float: left
+}
+
+.menu-nav__link--corner {
+    float: right;
+    opacity: .8;
+    line-height: 20px;
+    width: 6px;
+    height: 9px;
+    background: url("/catalog/view/theme/tattootools/image/spritesheet.png") -11px -5px
+}
+
+.menu-nav__subcategories {
+    position: relative;
+    float: left;
+    padding: 31px 0;
+    width: 50%;
+    height: auto;
+    background: #fff;
+    display: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-right: 1px solid #eff0e9;
+    z-index: 10
+}
+
+.menu-nav__subcategories--visible {
+    display: block
+}
+
+.menu-nav__subcategories:first-child {
+    top: -20px
+}
+
+.menu-nav__subcategories__heading {
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 0 10px 10px 35px;
+    margin-top: 5px
+}
+
+.menu-nav__subcategories__item {
+    position: relative
+}
+
+.menu-nav__subcategories__item a {
+    padding: 0 10px 3px 34px;
+    display: block;
+    line-height: 20px;
+    font-size: 10px;
+    font-weight: 500
+}
+
+.menu-nav__subcategories__item:hover a {
+    color: #bf9465
+}
+
+.menu-nav__subcategories__item__link {
+    color: #313131
+}
+
+.menu-nav__menu__icon {
+    display: block;
+    float: left;
+    width: 34px;
+    height: 34px;
+    background: url("/catalog/view/theme/tattootools/image/cross.svg") no-repeat center;
+    -webkit-background-size: 24px;
+    background-size: 24px
+}
+
+.menu-nav__menu__icon__menu-part {
+    display: block;
+    height: 3px;
+    background: #313131;
+    margin-bottom: 8.5px;
+    -webkit-transition: -webkit-transform .3s;
+    transition: transform .3s
+}
+
+.menu-nav__menu__icon__menu-part:last-of-type {
+    margin-bottom: 0
+}
+
+.menu-nav__menu__icon__menu-part--1 {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: 0 50%;
+    -ms-transform-origin: 0 50%;
+    transform-origin: 0 50%
+}
+
+.menu-nav__menu__icon__menu-part--2 {
+    opacity: 0
+}
+
+.menu-nav__menu__icon__menu-part--3 {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 0 50%;
+    -ms-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    margin-top: 9px
+}
+
+.menu-nav__menu__text {
+    display: block;
+    float: left;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 28px;
+    padding: 4px 15px;
+    font-weight: 700
+}
+
+.menu-nav__arrow-up {
+    top: 0;
+    border-bottom: 12px solid #fff !important
+}
+
+.menu-nav__arrow-up, .menu-nav__arrow-left {
+    display: block;
+    position: absolute;
+    border: 12px solid transparent
+}
+
+.menu-nav__arrow-left {
+    left: -24px;
+    top: 50%;
+    border-right: 12px solid #fff !important
+}
+
+.menu-nav__recomendation {
+    position: relative;
+    width: 50%;
+    background: #000;
+    float: left;
+    display: none;
+    -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, .2);
+    box-shadow: 0 3px 3px rgba(0, 0, 0, .2)
+}
+
+.menu-nav__recomendation__picture {
+    position: relative;
+    width: 50%;
+    background: #ccc;
+    height: 100%;
+    float: left
+}
+
+.menu-nav__recomendation__description {
+    position: relative;
+    width: 50%;
+    background: #fff;
+    height: 100%;
+    float: left
+}
+
+.menu-nav__delivery {
+    width: 100%;
+    text-align: center;
+    background: #f5f5f5;
+    padding-top: 22px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #313131
+}
+
+.menu-nav-wrap-outer {
+    margin-top: 22px;
+    width: 100%;
+    background: #fff
+}
+
+.menu-nav-wrap-inner {
+    margin: 0 auto;
+    width: 600px
+}
+
+.clear {
+    clear: both
+}
+
+.menu-bg-dark {
+    background: #000;
+    display: none;
+    opacity: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    height: 100%
+}
+
+html {
+    font-family: "futura-pt", sans-serif;
+    font-style: normal;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block
+}
+
+audio, canvas, progress, video {
+    display: inline-block;
+    vertical-align: baseline
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+[hidden], template {
+    display: none
+}
+
+a {
+    background: 0 0
+}
+
+a:active, a:hover {
+    outline: 0
+}
+
+abbr[title] {
+    border-bottom: 1px dotted
+}
+
+b, strong {
+    font-weight: 700
+}
+
+dfn {
+    font-style: italic
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+mark {
+    background: #ff0;
+    color: #000
+}
+
+small {
+    font-size: 80%
+}
+
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sup {
+    top: -.5em
+}
+
+sub {
+    bottom: -.25em
+}
+
+img {
+    border: 0
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+figure {
+    margin: 1em 40px
+}
+
+hr {
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0
+}
+
+pre {
+    overflow: auto
+}
+
+code, kbd, pre, samp {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0
+}
+
+button {
+    overflow: visible
+}
+
+button, select {
+    text-transform: none
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer
+}
+
+button[disabled], html input[disabled] {
+    cursor: default
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+
+input {
+    line-height: normal
+}
+
+input[type="checkbox"], input[type="radio"] {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0
+}
+
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+    height: auto
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box
+}
+
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+fieldset {
+    border: 1px solid silver;
+    margin: 0 2px;
+    padding: .35em .625em .75em
+}
+
+legend {
+    border: 0;
+    padding: 0
+}
+
+textarea {
+    overflow: auto
+}
+
+optgroup {
+    font-weight: 700
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+td, th {
+    padding: 0
+}
+
+.not-found {
+    min-height: 400px;
+    text-align: center
+}
+
+.not-found__heading {
+    display: inline-block;
+    font-size: 190px;
+    margin: 30px 0
+}
+
+.not-found__message {
+    display: block;
+    font-size: 10px;
+    text-transform: uppercase;
+    margin: 40px 0
+}
+
+.tattoomall-notification {
+    width: 100%;
+    height: 100px;
+    background: #ffedca;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    -webkit-transition: height .3s;
+    transition: height .3s;
+    overflow: hidden
+}
+
+.tattoomall-notification__block {
+    width: 1024px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden
+}
+
+.tattoomall-notification__block__header {
+    margin: 18px 0 3px;
+    float: left;
+    width: 900px
+}
+
+.tattoomall-notification__block__header__link {
+    text-decoration: none;
+    color: #000;
+    -webkit-transition: opacity .2s;
+    transition: opacity .2s
+}
+
+.tattoomall-notification__block__header__link:hover {
+    opacity: .7
+}
+
+.tattoomall-notification__block__paragraph {
+    float: left;
+    margin: 0
+}
+
+.tattoomall-notification__block__paragraph__link {
+    color: #000;
+    text-decoration: none;
+    opacity: .6;
+    -webkit-transition: opacity .2s;
+    transition: opacity .2s
+}
+
+.tattoomall-notification__block__paragraph__link:hover {
+    opacity: .3
+}
+
+.tattoomall-notification__block__remove {
+    position: relative;
+    float: right;
+    margin-top: -16px
+}
+
+.tattoomall-notification__block__remove__link {
+    display: block;
+    background: url("/catalog/view/theme/tattootools/static/image/delete.svg");
+    -webkit-background-size: contain;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    opacity: .2;
+    -webkit-transition: opacity .2s;
+    transition: opacity .2s
+}
+
+.tattoomall-notification__block__remove__link:hover {
+    opacity: 1
+}
+
+.tattoomall-notification.global-notice {
+    position: relative
+}
+
+.tattoomall-notification__block__header.global-notice {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    padding: 25px;
+    margin: 0 auto
+}
+
+.tattoomall-notification__block__remove.global-notice {
+    margin-top: 36px
+}
+
+.results__container {
+    padding: 0 !important
+}
+
+.order-info {
+    background: #f8f7f2;
+    width: 96%;
+    padding: 10px 2% 0
+}
+
+.order-info__item {
+    width: 98%;
+    padding: 5px 1% 0;
+    overflow: hidden
+}
+
+.order-info__item__details {
+    float: left;
+    width: 336px
+}
+
+.order-info__item__products {
+    float: left;
+    width: 300px
+}
+
+.order-info__item__products__model {
+    display: block;
+    color: #868686;
+    font-size: 10px;
+    text-transform: uppercase
+}
+
+.order-info__item__products__name {
+    display: block;
+    color: #333;
+    font-size: 12px;
+    margin: 3px 0 10px;
+    text-transform: uppercase;
+    -webkit-transition: color .2s;
+    transition: color .2s
+}
+
+.order-info__item__products__name:hover {
+    color: #c19566
+}
+
+.order-info__item__products__price {
+    display: block;
+    font-size: 12px;
+    color: #999
+}
+
+.order-info__item__products__total {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333
+}
+
+.order-info__item__prices {
+    float: left;
+    width: 140px
+}
+
+.order-info__item__prices__line {
+    height: 50px;
+    display: table-row
+}
+
+.store .checkout-data-form .checkout__payment-data {
+    width: 100%;
+    padding: 2px 0 0
+}
+
+.store .checkout-data-form .checkout__payment-data .input--city {
+    display: block;
+    margin: 0 auto;
+    width: 432px;
+    float: none;
+    border: none
+}
+
+.store .checkout-data-form .checkout__payment-data .city-pick-block .address__autocomplete {
+    left: 0;
+    width: 429px
+}
+
+.store .checkout-data-form .checkout__payment-data .payment__variants.active {
+    border-top: 1px solid #e3d3c2
+}
+
+.store .checkout-data-form .checkout__payment-data .payment__variants__loader {
+    width: 432px;
+    height: 160px;
+    margin: 20px auto;
+    display: none
+}
+
+.store .checkout-data-form .checkout__payment-data .payment__variants__loader__table {
+    height: 100%
+}
+
+.store .checkout-data-form .checkout__payment-data .payment__variants .radio__labels {
+    display: block;
+    margin: 0 auto;
+    width: 432px;
+    float: none;
+    border: none
+}
+
+.store .checkout-data-form .checkout__payment-data .payment__variants .heading-title {
+    display: block;
+    margin: 0 auto;
+    width: 432px;
+    float: none;
+    border: none;
+    color: #999;
+    text-align: left;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding-top: 25px;
+    padding-bottom: 9px
+}
+
+.store .checkout-data-form .checkout__payment-data .payment__variants .input__label__radio {
+    cursor: pointer
+}
+
+.store .checkout-data-form .checkout__payment-data .payment__variants .radio__labels__select {
+    border: 1px solid #ba9266
+}
+
+.store .checkout-data-form .checkout__payment-data .payment__variants .input__label__radio__p.descr {
+    padding-top: 6px;
+    line-height: 16px;
+    color: #999
+}
+
+.store .checkout-data-form .checkout__payment-data .payment__variants .input__label__radio__p__block {
+    width: 395px;
+    position: relative
+}
+
+.store .checkout-data-form .checkout__payment-data .payment__variants .input__label__radio__p__block .input__label__radio__cost {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: auto;
+    margin: 0;
+    padding: 6px 0;
+    font-size: 13px;
+    color: #b38453;
+    left: auto;
+    right: 0;
+    font-weight: 400
+}
+
+.store .checkout-data-form .checkout__payment-data .payment__variants .input-for-shipping-postcode input {
+    width: 120px
+}
+
+.payment__variants {
+    margin-bottom: 30px
+}
+
+.payment__variants__loader {
+    height: 300px;
+    background: #f5f5f5;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px
+}
+
+.payment__variants__loader__table {
+    width: 100%;
+    height: 300px;
+    text-align: center
+}
+
+.payment__variants__loader__table__message {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #666
+}
+
+.payment__variants__loader__table__image {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    background: url("/catalog/view/theme/tattootools/image/loader-bea.gif");
+    background-position: center;
+    -webkit-background-size: 30px;
+    background-size: 30px
+}
+
+.product-options {
+    text-align: center;
+    margin: 20px
+}
+
+.product-options__heading {
+    text-align: left;
+    margin: 0;
+    color: #858585;
+    font-size: 10px;
+    font-weight: 400;
+    padding: 20px 10px 6px 30px;
+    text-transform: uppercase
+}
+
+.product-options__label {
+    display: inline-block;
+    margin-right: 20px;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer
+}
+
+.product-options__label__option-name {
+    line-height: 30px;
+    display: inline-block;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 100
+}
+
+.product-options__label__radio {
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: top;
+    position: relative;
+    top: 8px
+}
+
+.product-options__label-container {
+    padding: 0 20px 15px 30px;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: left
+}
+
+.product-options__select {
+    display: block;
+    -webkit-appearance: none;
+    display: block;
+    padding: 10px 45px 10px 15px;
+    font-size: 12px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    width: 100px;
+    cursor: pointer;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    background-image: url("/catalog/view/theme/tattootools/image/select-arrows.png");
+    -webkit-background-size: 8px;
+    background-size: 8px;
+    background-position: 90%;
+    background-repeat: no-repeat;
+    margin: 10px 0 10px 30px
+}
+
+.product-options__select:hover {
+    opacity: .7
+}
+
+.product__tabs {
+    overflow: hidden;
+    padding: 30px 0;
+    -webkit-transition: all .4s;
+    transition: all .4s
+}
+
+.product__tabs table {
+    width: 100%
+}
+
+.product__tabs table td.thirty-per {
+    width: 28%;
+    padding: 0 1%;
+    border-right: 1px solid #e5e5e5;
+    vertical-align: top
+}
+
+.product__tabs table td.fifty-per {
+    width: 48%;
+    padding: 0 1%;
+    border-right: 1px solid #e5e5e5;
+    vertical-align: top
+}
+
+.product__tab {
+    font-size: 14px;
+    overflow: hidden;
+    border-right: 1px solid #f3f2ea;
+    padding: 0 1.6%;
+    -webkit-transition: all .4s;
+    transition: all .4s
+}
+
+.product__tab:last-of-type {
+    border-right: none
+}
+
+.product__tab--active {
+    display: block
+}
+
+.product__tab__description {
+    max-height: 50px;
+    overflow: hidden;
+    -webkit-transition: all .4s;
+    transition: all .4s
+}
+
+.product__tab__description--full {
+    max-height: none
+}
+
+.product__tab__description--full ul {
+    margin: 10px 0;
+    list-style: none;
+    font-size: 12px;
+    color: #666;
+    padding: 10px 0
+}
+
+.product__tab__description--full ul li:before {
+    color: #e4b742;
+    font-size: 26px;
+    font-weight: 200;
+    content: "-";
+    margin-right: 10px
+}
+
+.product__tab__description__show-more {
+    display: none;
+    padding: 10px 0 0;
+    font-size: 10px;
+    color: #c19566;
+    text-transform: uppercase;
+    border-bottom: 1px dotted #c19566;
+    cursor: pointer;
+    -webkit-transition: color .2s;
+    transition: color .2s
+}
+
+.product__tab__description__show-more:hover {
+    color: #af885f
+}
+
+.product__tab__description__show-more--active {
+    display: inline-block
+}
+
+.product-options {
+    margin-top: 20px
+}
+
+.product-options__item {
+    color: #666;
+    overflow: hidden
+}
+
+.product-options__item__name-block {
+    float: left;
+    width: 135px;
+    margin: 0;
+    padding-right: 5%;
+    padding-left: 0
+}
+
+.product-options__item__name {
+    font-size: 10px;
+    background-color: #fff;
+    padding-right: 6px;
+    text-transform: uppercase
+}
+
+.product-options__item__value-block {
+    word-wrap: break-word;
+    position: relative
+}
+
+.product-options__item__value {
+    font-size: 12px;
+    margin-left: 5px;
+    line-height: 22px;
+    padding-left: 3px;
+    color: #313131;
+    font-weight: 600;
+    background: #fff
+}
+
+.product-accessorizes__container {
+    width: 293px
+}
+
+.product-accessorizes__container td {
+    padding: 5px
+}
+
+.product-accessorizes__container__item {
+    height: 50px;
+    -webkit-transition: all .4s;
+    transition: all .4s
+}
+
+.product-accessorizes__container__item:hover .product-accessorizes__container__item__add-to-cart__fake-submit {
+    opacity: 1
+}
+
+.product-accessorizes__container__item__image {
+    width: 50px;
+    height: 50px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+.product-accessorizes__container__item__image-cell {
+    width: 50px
+}
+
+.product-accessorizes__container__item__model {
+    display: block;
+    color: #111;
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-bottom: 5px
+}
+
+.product-accessorizes__container__item__price {
+    display: block;
+    color: #111;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 700
+}
+
+.product-accessorizes__container__item__add-to-cart label {
+    display: block;
+    width: 27px;
+    height: 27px;
+    position: relative
+}
+
+.product-accessorizes__container__item__add-to-cart__hidden-submit {
+    display: none
+}
+
+.product-accessorizes__container__item__add-to-cart__fake-submit {
+    display: block;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #c29566;
+    border-radius: 3px;
+    background-image: url("/catalog/view/theme/tattootools/image/cart-icon.png");
+    background-position: center;
+    -webkit-background-size: 18px;
+    background-size: 18px;
+    background-repeat: no-repeat;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    cursor: pointer;
+    opacity: 0
+}
+
+.product-accessorizes__container__item__add-to-cart__fake-submit--disabled {
+    display: none
+}
+
+.product-accessorizes__container__item__add-to-cart__fake-submit:hover {
+    opacity: .7 !important
+}
+
+.product-accessorizes__container__item__add-to-cart__loader {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25px;
+    height: 25px;
+    background-image: url("/catalog/view/theme/tattootools/image/loader-bea.gif");
+    background-position: center;
+    -webkit-background-size: 18px;
+    background-size: 18px;
+    background-repeat: no-repeat;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    display: none
+}
+
+.product-accessorizes__container__item__add-to-cart__loader--active {
+    display: block
+}
+
+.product-top {
+    width: 100%;
+    border-bottom: 1px solid #f3f2ea
+}
+
+.product-gallery {
+    width: 541px;
+    margin-right: 20px;
+    float: left;
+    position: relative
+}
+
+.product-gallery__main-image {
+    margin: 15px 15px 15px 102px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+.product-gallery__icons {
+    position: absolute;
+    top: 15px;
+    left: 15px
+}
+
+.product-gallery__icons__image {
+    display: block;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #f3f2ea;
+    margin-bottom: 10px;
+    cursor: pointer;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.product-gallery__icons__image:hover {
+    opacity: .6
+}
+
+.product-gallery__icons__image--active {
+    border: 1px solid #c19566;
+    cursor: default
+}
+
+.product-gallery__icons__image--active:hover {
+    opacity: 1
+}
+
+.product-details {
+    width: 399px;
+    float: right
+}
+
+.product-details__name {
+    margin: 0;
+    padding: 0 20px;
+    font-size: 36px;
+    font-weight: 300
+}
+
+.product-details__model {
+    display: block;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #858585;
+    font-weight: 400;
+    padding: 14px 0
+}
+
+.product-top.product-top-fixwid {
+    width: 960px;
+    margin: 0 auto
+}
+
+.product-top.product-top-fixwid .photos {
+    width: 536px;
+    margin-right: 25px;
+    float: left;
+    margin-top: 8px;
+    position: relative
+}
+
+.product-top.product-top-fixwid .photos .quality {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 78px;
+    height: 108px;
+    z-index: 3;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: top
+}
+
+.product-top.product-top-fixwid .photos .quality .dd-tip {
+    top: 115px
+}
+
+.product-top.product-top-fixwid .photos .quality .dd-tip .qual-guarantee .text {
+    color: #c29566;
+    text-transform: uppercase;
+    padding-top: 16px;
+    font-size: 12px;
+    line-height: 20px;
+    padding-bottom: 5px
+}
+
+.product-top.product-top-fixwid .photos .quality .dd-tip .qual-guarantee .flag {
+    background: url("/catalog/view/theme/tattootools/static/image/quality-guarantee-flag.png") no-repeat center;
+    height: 15px;
+    padding-bottom: 2px;
+    margin: 6px 0 8px
+}
+
+.product-top.product-top-fixwid .photos .quality .dd-tip .descr {
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 0 20px 19px
+}
+
+.product-top.product-top-fixwid .photos .quality.menuvis .dd-tip {
+    opacity: 1;
+    top: 125px
+}
+
+.product-top.product-top-fixwid .photos .quality.active {
+    overflow: initial
+}
+
+.product-top.product-top-fixwid .photos .quality .ico {
+    width: 78px;
+    height: 78px;
+    background: url("/catalog/view/theme/tattootools/static/image/quality-guarantee.png") no-repeat top center
+}
+
+.product-top.product-top-fixwid .photos .quality .moar {
+    color: #c29566;
+    text-transform: uppercase;
+    border-bottom: 1px dashed #c29566;
+    font-size: 9px;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 11px
+}
+
+.product-top.product-top-fixwid .photos .main-photo {
+    width: 536px;
+    height: 536px;
+    position: relative;
+    border-radius: 3px
+}
+
+.product-top.product-top-fixwid .photos .main-photo img {
+    display: block;
+    position: absolute;
+    width: 536px;
+    max-height: 536px;
+    top: 0;
+    left: 0;
+    z-index: 1
+}
+
+.product-top.product-top-fixwid .photos .main-photo img.active {
+    z-index: 2
+}
+
+.product-top.product-top-fixwid .photos .sub-photos {
+    width: 536px;
+    text-align: center;
+    min-height: 10px
+}
+
+.product-top.product-top-fixwid .photos .sub-photos .scroller {
+    width: 547px
+}
+
+.product-top.product-top-fixwid .photos .sub-photos .photoblock {
+    display: inline-block;
+    border: 1px solid #d0d0d0;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    margin-right: 11px;
+    margin-top: 11px;
+    -webkit-transition: border-color .2s;
+    transition: border-color .2s;
+    border-radius: 2px;
+    vertical-align: top;
+    position: relative;
+    overflow: hidden
+}
+
+.product-top.product-top-fixwid .photos .sub-photos .photoblock img {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%
+}
+
+.product-top.product-top-fixwid .photos .sub-photos .photoblock:hover {
+    border: 1px solid #c29566
+}
+
+.product-top.product-top-fixwid .photos .sub-photos .photoblock:active {
+    border: 1px solid #c29566
+}
+
+.product-top.product-top-fixwid .photos .sub-photos .photoblock.active {
+    border: 1px solid #c29566;
+    cursor: default
+}
+
+.product-top.product-top-fixwid .delivery-calc {
+    border-top: 1px solid #d6d6d6;
+    display: none
+}
+
+.product-top.product-top-fixwid .delivery-calc .loading {
+    color: #999;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 100px;
+    height: 100px;
+    padding-left: 70px;
+    background: url("/catalog/view/theme/tattootools/static/image/wait2.gif") no-repeat top 34px left 19px
+}
+
+.product-top.product-top-fixwid .sociale {
+    height: 76px
+}
+
+.product-top.product-top-fixwid .sociale .product-wishlist {
+    float: left;
+    margin-top: 22px
+}
+
+.product-top.product-top-fixwid .sociale .product-wishlist form .add-to-fav-btn {
+    height: 34px;
+    background: 0 0;
+    border: none;
+    padding: 0;
+    outline: none;
+    -webkit-transition: opacity .2s;
+    transition: opacity .2s
+}
+
+.product-top.product-top-fixwid .sociale .product-wishlist form .add-to-fav-btn .ico {
+    display: block;
+    float: left;
+    width: 10px;
+    height: 10px;
+    margin-right: 13px;
+    margin-top: 11px;
+    margin-left: 1px;
+    background: url("/catalog/view/theme/tattootools/static/image/wishlist-star.png") no-repeat 0 0
+}
+
+.product-top.product-top-fixwid .sociale .product-wishlist form .add-to-fav-btn .text {
+    display: block;
+    float: left;
+    line-height: 34px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #ab7842;
+    font-weight: 400
+}
+
+.product-top.product-top-fixwid .sociale .product-wishlist form .add-to-fav-btn:hover {
+    opacity: .8
+}
+
+.product-top.product-top-fixwid .sociale .social__area {
+    float: right;
+    padding: 0;
+    margin: 28px 4px
+}
+
+.product-top.product-top-fixwid .sociale .social__area .social__area__button__link.social__area__button__link--vk {
+    -webkit-background-size: 19px;
+    background-size: 19px;
+    background-position: top 6px left 0
+}
+
+.product-top.product-top-fixwid .sociale .social__area .social__area__heading {
+    display: none
+}
+
+.product-top.product-top-fixwid .breadcrumbs {
+    margin-left: 0
+}
+
+.product-top.product-top-fixwid .product-details {
+    overflow: hidden
+}
+
+.product-top.product-top-fixwid .product-details .cloud {
+    background: #fff;
+    margin-top: 8px;
+    border-radius: 4px;
+    margin-right: 3px;
+    padding: 28px 28px 14px
+}
+
+.product-top.product-top-fixwid .product-details .cloud .product-details__name {
+    font-size: 28px;
+    line-height: 34px;
+    padding: 0;
+    margin: -6px 0 0 -1px
+}
+
+.product-top.product-top-fixwid .product-details .cloud .buy-form__add-to-cart-form {
+    float: none
+}
+
+.product-top.product-top-fixwid .product-details .cloud .buy-form__add-to-cart-form .buy-form {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    overflow: inherit
+}
+
+.product-top.product-top-fixwid .product-details .cloud .buy-form__add-to-cart-form .buy-form .for-buy-btn {
+    height: 52px;
+    margin-bottom: 14px
+}
+
+.product-top.product-top-fixwid .product-details .cloud .buy-form__add-to-cart-form .buy-form .for-buy-btn .buy-form__add-to-cart-form__label {
+    height: 52px;
+    width: 100%;
+    padding: 0;
+    position: relative
+}
+
+.product-top.product-top-fixwid .product-details .cloud .buy-form__add-to-cart-form .buy-form .for-buy-btn .buy-form__add-to-cart-form__label .store-button.buy-form__add-to-cart-form__button {
+    height: 50px;
+    width: 308px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #c29566;
+    line-height: 52px;
+    font-weight: 400;
+    background-position: 70px 16px !important;
+    text-align: center !important;
+    padding: 0 0 0 30px !important;
+    white-space: nowrap
+}
+
+.product-top.product-top-fixwid .product-details .cloud .buy-form__add-to-cart-form .buy-form .for-buy-btn .buy-form__add-to-cart-form__label .buy-form__add-to-cart-form__added-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 52px
+}
+
+.product-top.product-top-fixwid .product-details .cloud .buy-form__add-to-cart-form .buy-form .for-buy-btn .buy-form__add-to-cart-form__label .buy-form__add-to-cart-form__added-container .store-button.buy-form__add-to-cart-form__added-container__button {
+    width: 296px;
+    height: 50px;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 52px;
+    font-weight: 400;
+    background-position: 70px 16px !important;
+    text-align: center !important;
+    padding: 0 0 0 42px !important;
+    white-space: nowrap;
+    background: #ededed url("/catalog/view/theme/tattootools/image/cart-icon-2.png") no-repeat 40px 12px;
+    color: #c29566
+}
+
+.product-top.product-top-fixwid .product-details .cloud .buy-form__add-to-cart-form .buy-form .for-buy-btn .buy-form__add-to-cart-form__label:hover .store-button.buy-form__add-to-cart-form__button {
+    background-color: #fff;
+    background-image: #c19566 url("/catalog/view/theme/tattootools/image/cart-icon-2.png");
+    color: #c29566
+}
+
+.product-top.product-top-fixwid .product-details .cloud .buy-form__add-to-cart-form .buy-form .for-joystick {
+    height: 32px;
+    clear: both;
+    margin: 0 0 22px
+}
+
+.product-top.product-top-fixwid .product-details .cloud .buy-form__add-to-cart-form .buy-form .for-joystick .joy-itself {
+    float: right
+}
+
+.product-top.product-top-fixwid .product-details .cloud .buy-form__add-to-cart-form .buy-form .for-joystick .joy-itself .joystick-block {
+    padding: 0;
+    border: none;
+    background: #fff
+}
+
+.product-top.product-top-fixwid .product-details .cloud .buy-form__add-to-cart-form .buy-form .for-joystick .joy-itself .joystick__input {
+    background: #fff;
+    color: #333
+}
+
+.product-top.product-top-fixwid .product-details .cloud .buy-form__add-to-cart-form .buy-form .for-joystick .joy-label {
+    color: #999;
+    line-height: 38px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: -1px;
+    float: left
+}
+
+.product-top.product-top-fixwid .product-details .cloud .buy-form__add-to-cart-form .buy-form .super-stripe {
+    border-bottom: 1px solid #e6e6e6;
+    margin: 11px -28px 20px;
+    height: 0
+}
+
+.product-top.product-top-fixwid .product-details .cloud .buy-form__add-to-cart-form .buy-form .product-options {
+    height: 32px;
+    clear: both;
+    margin: 0 0 22px
+}
+
+.product-top.product-top-fixwid .product-details .cloud .buy-form__add-to-cart-form .buy-form .product-options .product-options__heading {
+    color: #999;
+    line-height: 38px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: -1px;
+    float: left;
+    padding: 0
+}
+
+.product-top.product-top-fixwid .product-details .cloud .buy-form__add-to-cart-form .buy-form .product-options .product-options__label-container {
+    float: right;
+    padding: 0
+}
+
+.product-top.product-top-fixwid .product-details .cloud .buy-form__add-to-cart-form .buy-form .product-options .product-options__label-container .product-options__label {
+    margin-right: 0;
+    margin-left: 20px;
+    line-height: 32px
+}
+
+.product-top.product-top-fixwid .product-details .cloud .buy-form__add-to-cart-form .buy-form .product-options .product-options__label-container .product-options__label .product-options__label__option-name {
+    font-weight: 400;
+    text-transform: lowercase;
+    line-height: 32px
+}
+
+.product-top.product-top-fixwid .product-details .cloud .buy-form__add-to-cart-form .buy-form .buy-form__availability {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-top: 13px;
+    margin-right: 0;
+    padding: 0;
+    line-height: 18px
+}
+
+.product-top.product-top-fixwid .product-details .cloud .buy-form__add-to-cart-form .buy-form .buy-form__availability.buy-form__availability--false {
+    color: #ba0505
+}
+
+.product-top.product-top-fixwid .product-details .cloud .buy-form__add-to-cart-form .buy-form .buy-form__availability.buy-form__availability--false:before {
+    width: 12px;
+    height: 18px;
+    margin-right: 2px;
+    background-position: center;
+    -webkit-background-size: inherit;
+    background-size: inherit;
+    vertical-align: top
+}
+
+.product-top.product-top-fixwid .product-details .cloud .buy-form__add-to-cart-form .buy-form .buy-form__availability.buy-form__availability--true {
+    color: #619e35
+}
+
+.product-top.product-top-fixwid .product-details .cloud .buy-form__add-to-cart-form .buy-form .buy-form__availability.buy-form__availability--true:before {
+    width: 12px;
+    height: 16px;
+    margin-right: 2px;
+    background-position: center;
+    -webkit-background-size: inherit;
+    background-size: inherit;
+    vertical-align: top
+}
+
+.product-top.product-top-fixwid .product-details .cloud .buy-form__add-to-cart-form .buy-form .buy-form__price {
+    padding: 0;
+    margin: 0
+}
+
+.product-top.product-top-fixwid .product-details .cloud .buy-form__add-to-cart-form .buy-form .buy-form__price .buy-form__price__roub {
+    font-size: 20px
+}
+
+.grids.prod-page {
+    background: #fff
+}
+
+.grids.prod-page .fullw {
+    background: #f5f5f5;
+    padding-top: 9px;
+    padding-bottom: 10px
+}
+
+.grids.prod-page .product__tabs {
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px 0 50px
+}
+
+.grids.prod-page .product__tabs.no-descr.no-set-items.no-props, .grids.prod-page .product__tabs.no-set-items.no-props .left {
+    display: none
+}
+
+.grids.prod-page .product__tabs.no-set-items.no-props .right {
+    float: left
+}
+
+.grids.prod-page .product__tabs.no-descr .right, .grids.prod-page .product__tabs.no-set-items .data-block.set-items, .grids.prod-page .product__tabs.no-props .data-block.props {
+    display: none
+}
+
+.grids.prod-page .product__tabs .left {
+    float: left;
+    width: 410px
+}
+
+.grids.prod-page .product__tabs .right {
+    float: right;
+    width: 521px
+}
+
+.grids.prod-page .product__tabs .data-block .title {
+    text-transform: uppercase;
+    padding: 26px 0 24px;
+    color: #333;
+    line-height: 22px;
+    font-size: 14px;
+    font-weight: 400
+}
+
+.grids.prod-page .product__tabs .data-block .body {
+    color: #333;
+    line-height: 22px;
+    font-size: 14px;
+    font-weight: 200
+}
+
+.grids.prod-page .product__tabs .data-block .body ul, .grids.prod-page .product__tabs .data-block .body ol {
+    margin-left: 24px
+}
+
+.grids.prod-page .product__tabs .data-block .body .list {
+    margin-top: -3px
+}
+
+.grids.prod-page .product__tabs .data-block .body .row {
+    line-height: 30px
+}
+
+.grids.prod-page .product__tabs .data-block .body .row .key {
+    float: left;
+    width: 162px;
+    color: #999;
+    text-transform: uppercase;
+    font-size: 12px
+}
+
+.grids.prod-page .product__tabs .data-block .body .row .value {
+    color: #333;
+    font-size: 13px;
+    max-width: 248px;
+    line-height: 18px;
+    min-height: 24px;
+    padding-top: 6px;
+    overflow: hidden;
+    display: block;
+    word-wrap: break-word
+}
+
+@media screen and (min-width: 1150px) {
+    .product-top .photos .sub-photos {
+        position: absolute;
+        top: 0;
+        left: -80px;
+        width: 80px !important
+    }
+
+    .product-top .photos .sub-photos .scroller {
+        max-height: 420px;
+        width: 100% !important
+    }
+
+    .product-top .photos .sub-photos .scroller .photoblock {
+        display: block
+    }
+}
+
+.product {
+    overflow: hidden
+}
+
+.product:hover .product__image {
+    opacity: .85
+}
+
+.product:hover .product__text {
+    background: #e1dfd3
+}
+
+.product:hover .product__text__arrow-left {
+    border-right-color: #e1dfd3
+}
+
+.product:hover .product__text__arrow-right {
+    border-left-color: #e1dfd3
+}
+
+.product:hover .product__text__arrow-top {
+    border-bottom-color: #e1dfd3
+}
+
+.product__image {
+    display: block;
+    width: 50%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+    float: left;
+    -webkit-transition: opacity .4s;
+    transition: opacity .4s
+}
+
+.product__image__shadow {
+    width: 100%;
+    height: 100%
+}
+
+.product__image:hover {
+    opacity: .85
+}
+
+.product__text {
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    float: left;
+    position: relative;
+    -webkit-transition: background-color .2s, border-color .2s;
+    transition: background-color .2s, border-color .2s
+}
+
+.product__text__arrow-left {
+    position: absolute;
+    top: 50%;
+    left: -44px;
+    width: 0;
+    height: 0;
+    border: 22px solid transparent;
+    margin-top: -22px;
+    z-index: 200;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.product__text__arrow-right {
+    top: 50%;
+    right: -44px;
+    margin-top: -22px
+}
+
+.product__text__arrow-right, .product__text__arrow-top {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 22px solid transparent;
+    z-index: 200;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.product__text__arrow-top {
+    top: -44px;
+    right: 50%;
+    margin-right: -22px
+}
+
+.product__text__inner {
+    position: relative;
+    padding: 10%;
+    width: 80%;
+    height: 80%
+}
+
+.product__text__model {
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    color: #858585;
+    text-transform: uppercase
+}
+
+.product__text__model:hover {
+    opacity: .8
+}
+
+.product__text__name {
+    display: block;
+    font-size: 29px;
+    color: #313131;
+    text-transform: uppercase;
+    margin: 20px 0 15px;
+    max-height: 96px;
+    overflow: hidden;
+    line-height: 32px;
+    word-wrap: break-word
+}
+
+.product__text__name:hover {
+    opacity: .8
+}
+
+.product__text__name__no-float {
+    display: block;
+    font-size: 16px;
+    color: #313131;
+    text-transform: uppercase;
+    margin: 15px 0;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.product__text__readnext {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    color: #333;
+    font-size: 12px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: block
+}
+
+.product__text__readnext .corner {
+    display: block;
+    float: right;
+    width: 14px;
+    height: 14px;
+    background: url("/catalog/view/theme/tattootools/image/mp-corn.png") no-repeat top 2px right 3px
+}
+
+.product__text__price {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #858585;
+    text-transform: uppercase;
+    word-wrap: break-word
+}
+
+.product__no-float {
+    position: relative;
+    float: left;
+    width: 25%;
+    background: #fff
+}
+
+.product__no-float.not-avail .product__no-float__text, .product__no-float.not-avail .product__no-float__image {
+    opacity: .5
+}
+
+.product__no-float .not-avail {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background: #e14747;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 3px;
+    font-size: 12px
+}
+
+.product__no-float:hover .product__no-float__text {
+    background: #f1f1ef
+}
+
+.product__no-float:hover .product__no-float__image {
+    opacity: .7
+}
+
+.product__no-float__text__arrow-top {
+    border: 22px solid transparent;
+    border-bottom-color: #fff
+}
+
+.product__no-float:hover .product__no-float__text__arrow-top {
+    border-bottom-color: #f1f1ef
+}
+
+.product__no-float__text {
+    position: relative;
+    -webkit-transition: all .4s;
+    transition: all .4s
+}
+
+.product__no-float__text:hover {
+    background-color: #f1f1ef
+}
+
+.product__no-float__text__price {
+    display: block;
+    font-size: 14px;
+    color: #9d9d9d;
+    font-weight: 500;
+    text-transform: uppercase
+}
+
+.product__no-float__text__inner {
+    padding: 10%
+}
+
+.product__no-float__text__model {
+    display: block;
+    font-size: 11px;
+    font-weight: 500;
+    color: #9d9d9d;
+    text-transform: uppercase;
+    line-height: 14px;
+    max-height: 28px;
+    overflow: hidden
+}
+
+.product__no-float__text__name {
+    display: block;
+    font-size: 15px;
+    color: #c19566;
+    text-transform: uppercase;
+    margin: 15px 0;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    line-height: 20px;
+    max-height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 400
+}
+
+.product__no-float__image {
+    display: block;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.product__no-float__image:hover {
+    opacity: .7
+}
+
+.product__text__arrow-right {
+    border-left-color: #f1f1ef
+}
+
+.product__text__arrow-left {
+    border-right-color: #f1f1ef
+}
+
+.product__text__arrow-top {
+    border-bottom-color: #f1f1ef
+}
+
+.products-heading {
+    width: 100%;
+    background: #fff;
+    border-top: 1px solid #f3f2ea
+}
+
+.products-heading__heading {
+    display: block;
+    color: #313131;
+    font-weight: 700;
+    padding: 30px;
+    font-size: 13px;
+    text-transform: uppercase
+}
+
+.products-heading.noborder {
+    border: none
+}
+
+.product-slider {
+    height: 419px;
+    padding-bottom: 0;
+    margin-bottom: 40px;
+    position: relative
+}
+
+.product-slider .btn-l {
+    left: -40px;
+    background: url("/catalog/view/theme/tattootools/static/image/arr-l.png") no-repeat center
+}
+
+@media screen and (max-width: 1024px) {
+    .product-slider .btn-l {
+        left: -10px
+    }
+}
+
+.product-slider .btn-r {
+    right: -40px;
+    background: url("/catalog/view/theme/tattootools/static/image/arr-r.png") no-repeat center
+}
+
+@media screen and (max-width: 1024px) {
+    .product-slider .btn-r {
+        right: -20px
+    }
+}
+
+.product-slider .btn-l, .product-slider .btn-r {
+    cursor: pointer;
+    opacity: .5;
+    z-index: 2;
+    width: 24px;
+    height: 24px;
+    margin-top: -95px;
+    position: absolute;
+    top: 50%;
+    -webkit-transition: opacity .2s;
+    transition: opacity .2s
+}
+
+.product-slider .btn-l:hover, .product-slider .btn-r:hover {
+    opacity: 1
+}
+
+.product-slider .btn-l.disabled, .product-slider .btn-r.disabled {
+    display: none
+}
+
+.product-slider .list-limit {
+    width: 100%;
+    height: 419px;
+    overflow: hidden;
+    position: relative
+}
+
+.product-slider .list-limit .list {
+    height: 419px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transition: left .6s;
+    transition: left .6s
+}
+
+.product-slider .product__no-float {
+    height: 407px
+}
+
+.product-slider .product__no-float .product__no-float__text {
+    height: 176px
+}
+
+.product-slider .product__no-float .product__no-float__text .product__no-float__text__inner {
+    padding: 30px 16px
+}
+
+.product-slider .product__no-float .product__no-float__text .product__no-float__text__inner .product__no-float__text__model {
+    font-weight: 300;
+    font-size: 11px
+}
+
+.product-slider .product__no-float .product__no-float__text .product__no-float__text__inner .product__no-float__text__name {
+    font-size: 20px;
+    color: #222;
+    font-weight: 300;
+    line-height: 24px;
+    max-height: 48px
+}
+
+.product-slider .product__no-float .product__no-float__text .product__no-float__text__inner .product__no-float__text__price {
+    font-weight: 400;
+    color: #222;
+    font-size: 15px
+}
+
+.product-slider .product__no-float:hover .product__no-float__text__inner .product__no-float__text__name {
+    color: #c19566
+}
+
+.products-heading.for-slider .products-heading__heading {
+    text-align: center;
+    font-size: 27px;
+    font-weight: 300;
+    color: #333;
+    padding: 55px 0 17px
+}
+
+.ya-share2__container_size_m .ya-share2__item {
+    margin: 0 !important
+}
+
+a.ya-share2__link {
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    float: left;
+    margin-right: 15px;
+    opacity: .4;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+a.ya-share2__link:hover {
+    opacity: 1;
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0)
+}
+
+a.ya-share2__link .ya-share2__badge span.ya-share2__icon {
+    display: block;
+    width: 20px;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 30px;
+    height: 20px
+}
+
+a.ya-share2__link[title="ВКонтакте"] .ya-share2__badge {
+    background: #3d608a
+}
+
+a.ya-share2__link[title="ВКонтакте"] .ya-share2__badge span.ya-share2__icon {
+    -webkit-background-size: 19px !important;
+    background-size: 19px !important;
+    background-position: 0 6px !important;
+    background: url("/catalog/view/theme/tattootools/image/vk-ex-small-logo.png") no-repeat -2px 4px
+}
+
+a.ya-share2__link[title="Facebook"] .ya-share2__badge {
+    background: #38599e
+}
+
+a.ya-share2__link[title="Facebook"] .ya-share2__badge span.ya-share2__icon {
+    -webkit-background-size: 8px;
+    background-size: 8px;
+    background: url("/catalog/view/theme/tattootools/image/facebook-small-logo.png") no-repeat 8px 2px
+}
+
+a.ya-share2__link[title="Twitter"] {
+    margin-right: 0
+}
+
+a.ya-share2__link[title="Twitter"] .ya-share2__badge {
+    background: #45b0e4
+}
+
+a.ya-share2__link[title="Twitter"] .ya-share2__badge span.ya-share2__icon {
+    -webkit-background-size: 18px;
+    background-size: 18px;
+    background: url("/catalog/view/theme/tattootools/image/twitter-small-logo.png") no-repeat 1px 3px
+}
+
+.question-block {
+    display: block
+}
+
+.question-block__question {
+    display: inline-block;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #c19566;
+    border-bottom: 1px dotted #c19566;
+    margin: 10px 0;
+    cursor: pointer
+}
+
+.question-block__question:hover {
+    opacity: .7
+}
+
+.question-block__answer {
+    display: block;
+    font-size: 12px;
+    color: #555;
+    height: 0;
+    overflow: hidden
+}
+
+div, header, footer, nav {
+    padding: 0;
+    margin: 0
+}
+
+html, body {
+    height: 100%
+}
+
+a {
+    outline: 0
+}
+
+.search-block {
+    width: 100%;
+    height: 80px;
+    background: #c19566
+}
+
+.search-block__form {
+    float: left;
+    line-height: 80px
+}
+
+.search-block__form__input {
+    display: block;
+    padding: 12px;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    width: 300px;
+    float: left;
+    margin: 21px 20px 0 0
+}
+
+.search-block__heading {
+    display: block;
+    float: right;
+    font-size: 12px;
+    line-height: 80px;
+    color: #fff
+}
+
+.search-block__heading__link {
+    color: #ddd
+}
+
+.search-block__heading__link:hover {
+    color: #fff
+}
+
+.search-button {
+    display: block;
+    background: #af885f;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    height: 38px;
+    line-height: 38px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 21px 0 0;
+    float: right
+}
+
+.search-button:hover {
+    background: #fff;
+    color: #af885f
+}
+
+.grids.search {
+    padding-top: 40px
+}
+
+.search-no-request {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 13px;
+    color: #555
+}
+
+.search-no-request a.linke {
+    color: #c19566
+}
+
+.search-no-request a.linke:hover {
+    opacity: .8
+}
+
+.main-selection {
+    position: relative;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center
+}
+
+.main-selection:hover .main-selection__darker {
+    background: rgba(0, 0, 0, 0)
+}
+
+.main-selection__link {
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    text-shadow: none;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.main-selection__link:hover {
+    background: #fff;
+    color: #313131
+}
+
+.main-selection__darker {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .2);
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.main-selection__text {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    padding: 5%;
+    top: 0;
+    left: 0;
+    z-index: 25;
+    text-transform: uppercase;
+    text-align: center
+}
+
+.main-selection__text table {
+    width: 100%;
+    height: 100%
+}
+
+.main-selection__text__type {
+    display: block;
+    font-size: 11px;
+    color: #fff;
+    font-weight: 700;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .2)
+}
+
+.main-selection__text__name {
+    display: block;
+    font-size: 42px;
+    font-weight: 300;
+    margin: 25px 0;
+    color: #fff;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, .3)
+}
+
+.main-selection__text__text {
+    display: block;
+    font-size: 24px;
+    margin: 40px 0;
+    color: #fff
+}
+
+.main-selection__counter {
+    display: block;
+    margin: 30px 0 0;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    opacity: 0
+}
+
+.main-selection__counter--active {
+    opacity: 1
+}
+
+.main-selection__counter__item {
+    display: inline-block;
+    text-transform: lowercase;
+    padding: 6px 0;
+    color: #fff;
+    font-size: 20px;
+    width: 28px;
+    text-align: center;
+    font-weight: 600;
+    background: #c19566;
+    border-radius: 4px;
+    margin: 0 1px
+}
+
+.main-selection__counter__item__delimiter {
+    font-size: 24px;
+    color: #fff
+}
+
+.main-selection__counter__item__txt {
+    color: #fff;
+    text-transform: lowercase;
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 9px
+}
+
+.shipping-ads-new {
+    width: 660px;
+    padding: 20px;
+    margin: 0 auto;
+    position: relative;
+    display: none
+}
+
+.shipping__additional {
+    padding: 10px;
+    background: #f3f2ea;
+    margin: 10px;
+    width: 320px
+}
+
+.shipping__additional__header {
+    display: block;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 20px
+}
+
+.shipping-additional {
+    overflow: hidden;
+    font-size: 10px;
+    text-transform: uppercase;
+    margin: 10px 0
+}
+
+.shipping-additional__header {
+    display: block;
+    float: left;
+    width: 80px;
+    margin-right: 20px
+}
+
+.shipping-additional__value {
+    display: block;
+    float: right;
+    width: 220px
+}
+
+.subscribe {
+    width: 960px;
+    margin: 0 auto
+}
+
+.subscribe .input__label__radio {
+    cursor: pointer
+}
+
+.subscribe .input__label__radio__p__block {
+    width: auto
+}
+
+.subscribe .input__label__radio__input {
+    margin: 2px 0 0
+}
+
+.shipping__variants {
+    font-size: 12px;
+    color: #888
+}
+
+.shipping__loader {
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 23px;
+    right: 4px;
+    background-image: url("/catalog/view/theme/tattootools/image/loader-bea.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: 30px;
+    background-size: 30px;
+    display: none
+}
+
+#shl-ext-info {
+    padding: 0 30px
+}
+
+#shl-ext-info .shipping__additional__description {
+    color: #333
+}
+
+#shl-ext-info .shipping__additional__description h3.shipping__additional__header {
+    padding-top: 15px
+}
+
+#shl-ext-info .shipping__additional__description .shipping-additional .shipping-additional__header, #shl-ext-info .shipping__additional__description .shipping-additional .shipping-additional__value, .sitemap {
+    color: #333
+}
+
+.sitemap .page-header {
+    margin-top: 0
+}
+
+.social__area {
+    overflow: hidden;
+    padding: 20px
+}
+
+.social__area__heading {
+    display: block;
+    float: left;
+    font-size: 12px;
+    color: #555;
+    line-height: 20px;
+    margin-right: 15px
+}
+
+.social__area__button {
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    float: left;
+    margin-right: 15px;
+    opacity: .4;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.social__area__button:hover {
+    opacity: 1;
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0)
+}
+
+.social__area__button--vk {
+    background: #3d608a
+}
+
+.social__area__button--fb {
+    background: #38599e
+}
+
+.social__area__button--tw {
+    background: #45b0e4;
+    margin-right: 0
+}
+
+.social__area__button__link {
+    display: block;
+    width: 20px;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 30px;
+    height: 27px
+}
+
+.social__area__button__link--vk {
+    background: url("/catalog/view/theme/tattootools/image/vk-ex-small-logo.png") no-repeat -2px 4px
+}
+
+.social__area__button__link--fb {
+    background: url("/catalog/view/theme/tattootools/image/facebook-small-logo.png") no-repeat 8px 2px
+}
+
+.social__area__button__link--tw {
+    background: url("/catalog/view/theme/tattootools/image/twitter-small-logo.png") no-repeat 1px 3px
+}
+
+.sort .utility-row {
+    width: 960px;
+    margin: 0 auto;
+    position: relative
+}
+
+.sort .utility-row .prods-cnt {
+    float: left;
+    height: 66px;
+    line-height: 66px;
+    padding: 0 4px;
+    font-size: 17px
+}
+
+.sort .utility-row .sorting {
+    float: right;
+    height: 68px;
+    line-height: 68px
+}
+
+.sort .utility-row .sorting .label {
+    color: #ba9266;
+    padding: 0 10px;
+    font-size: 14px;
+    float: left
+}
+
+.sort .utility-row .sorting .select {
+    float: left
+}
+
+.sort .utility-row .sorting .select .sel {
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid #ba9266;
+    display: block;
+    padding: 8px 25px 8px 15px;
+    line-height: 14px;
+    font-size: 14px;
+    border-radius: 3px;
+    background-color: #fff;
+    background-image: url("/catalog/view/theme/tattootools/image/select-arrows.png");
+    background-position: 95%;
+    background-repeat: no-repeat;
+    -webkit-background-size: 6px;
+    background-size: 6px;
+    text-transform: none;
+    outline: none;
+    margin: 17px -2px 3px 0;
+    color: #999
+}
+
+.sort .utility-row .sorting .select .sel::-ms-expand {
+    display: none
+}
+
+.sort .utility-row .sorting .select .sel option {
+    font-weight: 400
+}
+
+.tooltip {
+    position: fixed;
+    background: #fff;
+    top: 100px;
+    left: 100px;
+    width: 300px;
+    min-height: 200px;
+    z-index: 20000;
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+    display: none;
+    text-transform: uppercase
+}
+
+.tooltip__arrow-wrap {
+    position: absolute
+}
+
+.tooltip__arrow-up-shadowed {
+    display: block;
+    top: -12px;
+    left: 235px;
+    width: 18px;
+    height: 12px;
+    position: relative;
+    overflow: hidden;
+    z-index: 20000
+}
+
+.tooltip__arrow-up-shadowed:after {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 6px;
+    left: 3px;
+    border: 1px solid #d9d9d9
+}
+
+.tooltip__heading {
+    width: 100%;
+    height: 54px;
+    border-bottom: 1px solid #d9d9d9
+}
+
+.tooltip__heading__in-cart {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 20px 0 17px 25px;
+    display: block;
+    color: #ab7743
+}
+
+.tooltip__heading__in-cart__corner {
+    margin-right: 20px;
+    width: 9px;
+    height: 14px;
+    background: center center url("/catalog/view/theme/tattootools/static/image/arrow-tooltip.png");
+    float: right
+}
+
+.tooltip__products-wrap {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 50px;
+    max-height: 400px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d9d9d9
+}
+
+.tooltip__products {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    padding-right: 30px
+}
+
+.tooltip__product {
+    position: relative;
+    width: 100%;
+    -webkit-transition: background 1s ease 1s;
+    transition: background 1s ease 1s;
+    padding-bottom: 10px
+}
+
+.tooltip__product__photo {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    -webkit-background-size: 70px;
+    background-size: 70px;
+    background-position: center center;
+    margin: 15px 0 0 25px;
+    float: left
+}
+
+.tooltip__product__photo a {
+    width: 100%;
+    height: 100%;
+    display: block
+}
+
+.tooltip__product__description {
+    position: relative;
+    width: 160px;
+    margin: 18px 0 0 15px;
+    float: left
+}
+
+.tooltip__product__description__model {
+    font-size: 11px;
+    font-weight: 300;
+    color: #999;
+    line-height: 16px
+}
+
+.tooltip__product__description__name a {
+    font-size: 14px;
+    color: #000;
+    margin-top: 5px;
+    line-height: 20px;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.tooltip__product__description__name a:hover {
+    color: #c19566
+}
+
+.tooltip__product__description__price-count {
+    color: #999;
+    font-size: 11px;
+    margin-top: 5px
+}
+
+.tooltip__product__description__price-count span {
+    text-transform: none
+}
+
+.tooltip__product__description__restore {
+    display: block;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #ab7743;
+    padding-top: 10px
+}
+
+.tooltip__product__remove {
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    width: 12px;
+    height: 12px;
+    background: center center url("/catalog/view/theme/tattootools/static/image/cart-del.png");
+    display: none;
+    opacity: .5;
+    -webkit-transition: opacity .2s;
+    transition: opacity .2s
+}
+
+.tooltip__product__remove:hover {
+    cursor: pointer;
+    opacity: 1
+}
+
+.tooltip__product:hover .tooltip__product__remove {
+    display: block
+}
+
+.tooltip__product__just-added {
+    background: #eae9e0
+}
+
+.tooltip__product__just-added-fade {
+    background: #fff
+}
+
+.tooltip__total {
+    position: relative;
+    margin-bottom: 15px;
+    width: 100%
+}
+
+.tooltip__total__price {
+    margin: 20px 0 0 25px;
+    font-size: 14px;
+    color: #999
+}
+
+.tooltip__total__price span {
+    color: #000;
+    font-weight: 600;
+    margin-left: 5px
+}
+
+.tooltip__total__buttons {
+    margin: 20px 0 10px;
+    width: 100%
+}
+
+.tooltip__total__buttons__btn-wrap {
+    width: 100%;
+    margin: 10px 25px
+}
+
+.tooltip__total__buttons__btn-wrap a {
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    display: block;
+    text-align: center !important;
+    width: 250px;
+    padding: 12px 0 10px !important
+}
+
+.tooltip__empty {
+    width: 80%;
+    margin: 65px 10%;
+    text-transform: none;
+    color: #999
+}
+
+.tooltip__empty, .category-top__description {
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px
+}
+
+.category-top__description {
+    height: 305px;
+    padding: 30px 0;
+    margin: 0 auto;
+    width: 100%;
+    background: #242426;
+    overflow: hidden;
+    color: #909090;
+    font-weight: 100;
+    -webkit-transition: max-height .4s;
+    transition: max-height .4s;
+    position: relative
+}
+
+.category-top__description .mini-wrap {
+    width: 780px;
+    margin: 0 auto;
+    position: relative
+}
+
+.category-top__description ul, .category-top__description ol {
+    padding: 10px 0;
+    text-align: center
+}
+
+.category-top__description ul li, .category-top__description ol li {
+    list-style: square inside
+}
+
+.category-top__description a {
+    color: #909090;
+    font-weight: 400;
+    -webkit-transition: opacity .2s;
+    transition: opacity .2s;
+    outline: none
+}
+
+.category-top__description ahover {
+    opacity: .7
+}
+
+.category-top__description p {
+    margin-bottom: 10px;
+    color: #909090;
+    font-weight: 100
+}
+
+.category-top__description .title {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 16px;
+    padding-top: 7px;
+    letter-spacing: .8px;
+    text-transform: uppercase;
+    font-weight: 400
+}
+
+.category-top__description .moar-row {
+    width: 100%;
+    height: 292px;
+    background: -webkit-gradient(linear, left bottom, left top, from(#242426), color-stop(40%, #242426), to(rgba(36, 36, 38, 0)));
+    background: -webkit-linear-gradient(bottom, #242426 0%, #242426 40%, rgba(36, 36, 38, 0) 100%);
+    background: linear-gradient(to top, #242426 0%, #242426 40%, rgba(36, 36, 38, 0) 100%);
+    background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjI5MnB4Ij48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImcxIiB4MT0iMTAwJSIgeTE9IjEwMCUiPjxzdG9wIHN0b3AtY29sb3I9IiMyNDI0MjYiLz48c3RvcCBvZmZzZXQ9Ii40IiBzdG9wLWNvbG9yPSIjMjQyNDI2Ii8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMjQyNDI2IiBzdG9wLW9wYWNpdHk9IjAiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2cxKSIvPjwvc3ZnPg==") \0;
+    position: absolute;
+    bottom: 0;
+    left: 0
+}
+
+.category-top__description .moar-row .moar-btn {
+    margin: 202px auto 0;
+    display: block;
+    cursor: pointer;
+    width: 125px;
+    height: 38px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #62584e;
+    border-radius: 4px;
+    color: #bea07a;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 300;
+    background: #242426;
+    -webkit-transition: background .2s, border-color .2s, color .2s;
+    transition: background .2s, border-color .2s, color .2s;
+    overflow: hidden
+}
+
+.category-top__description .moar-row .moar-btn:hover {
+    background: #b1977a;
+    border-color: #b1977a;
+    color: #242426
+}
+
+.category-top__description .moar-row .moar-btn:active {
+    line-height: 42px
+}

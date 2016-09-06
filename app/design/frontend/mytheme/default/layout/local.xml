@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <remove name="wishlist_link" />
+        <remove name="checkout_cart_link"/>
+        <reference name="top.links">
+            <action method="addLink" translate="label title">
+                <label>Search</label>
+                <url>Search</url>
+                <title>Search</title>
+                <prepare/><urlParams/>
+
+            </action>
+
+            <action method="removeLinkByUrl"><url helper="customer/getAccountUrl"/></action>
+
+        </reference>
+
+        <remove name="wishlist_link" />
+
+        <remove name="checkout_cart_link"/>
+
+        <block type="checkout/links" name="checkout_cart_link_custom">
+            <action method="addCartLink"></action>
+            <action method="addCheckoutLink"></action>
+        </block>
+
+    </default>
+</layout>

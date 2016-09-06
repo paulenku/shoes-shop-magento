@@ -1,0 +1,12 @@
+<?php
+$slider = $this->getNewsCollection();
+$sliderViewUrl = Mage::getUrl('slider/index/view');
+?>
+    <h1>Slider</h1>
+<?php foreach ($slider as $item): ?>
+    <h2>
+        <a href="<?php echo $sliderViewUrl; ?>?id=<?php echo $item->getId(); ?>">
+            <?php echo $item->getTitle(); ?>
+        </a>
+    </h2>
+<?php endforeach; ?>

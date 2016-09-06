@@ -1,0 +1,22 @@
+<?php
+$news = $this->getNewsCollection();
+$newsViewUrl = Mage::getUrl('news/index/view');
+?>
+    <h1>News</h1>
+    <div id="ei-slider" class="ei-slider">
+    <div class="ei-slider-loading" style="display: none;">Loading</div>
+    <ul class="ei-slider-large">
+        <?php foreach ($news as $item): ?>
+            <li>
+                <img src="" alt="">
+                <a href="<?php echo $newsViewUrl; ?>?id=<?php echo $item->getId(); ?>">
+                    <?php echo $item->getTitle(); ?>
+                </a>
+            </li>
+        <?php endforeach; ?>
+    </ul>
+</div>
+
+
+
+

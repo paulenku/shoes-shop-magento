@@ -1,0 +1,119 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magento.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magento.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2006-2016 X.commerce, Inc. and affiliates (http://www.magento.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<?php
+/**
+ * Customer login form template
+ *
+ * @see app/design/frontend/base/default/template/customer/form/login.phtml
+ */
+/** @var $this Mage_Customer_Block_Form_Login */
+?>
+<!--goToRegistation-->
+<div class="login_left">
+    <?php echo $this->getMessagesBlock()->toHtml() ?>
+    <h3><?php echo $this->__('New Customers') ?></h3>
+    <p><?php echo $this->__('By creating an account with our store, you will be able to move through the checkout process faster, store multiple shipping addresses, view and track your orders in your account and more.') ?></p>
+    <div class="btnn">
+        <form>
+            <input type="button" value="Create an Account"
+                   title="<?php echo Mage::helper('core')->quoteEscape($this->__('Create an Account')) ?>"
+                   class="button"
+                   onclick="window.location='<?php echo Mage::helper('persistent')->getCreateAccountUrl($this->getCreateAccountUrl()) ?>';">
+            </input>
+        </form>
+    </div>
+</div>
+<!--logIn-->
+<div class="login_left">
+    <h3>registered customers</h3>
+    <p>if you have any account with us, please log in.</p>
+    <!-- start registration -->
+    <div class="registration">
+        <!-- [if IE]
+            < link rel='stylesheet' type='text/css' href='ie.css'/>
+         [endif] -->
+
+        <!-- [if lt IE 7]>
+            < link rel='stylesheet' type='text/css' href='ie6.css'/>
+        <! [endif] -->
+        <div class="registration_left">
+            <a href="#">
+                <div class="reg_fb"><img src="<?php echo $this->getSkinUrl('images/facebook.png') ?>" alt=""><i>sign in
+                        using Facebook</i>
+                    <div class="clear"></div>
+                </div>
+            </a>
+
+            <div class="registration_form">
+                <!-- Form -->
+                <form action="<?php echo $this->getPostActionUrl() ?>" method="post" id="login-form">
+                    <?php echo $this->getBlockHtml('formkey'); ?>
+                    <div>
+                        <label for="email" class="required"><?php echo $this->__('Email Address') ?>
+                            <input placeholder="email:" type="text" name="login[username]"
+                                   value="<?php echo $this->escapeHtml($this->getUsername()) ?>" id="email"
+                                   class="input-text required-entry validate-email"
+                                   title="<?php echo Mage::helper('core')->quoteEscape($this->__('Email Address')) ?>"/>
+                        </label>
+                    </div>
+                    <div>
+                        <label for="pass" class="required"><?php echo $this->__('Password') ?>
+                            <input type="password" name="login[password]"
+                                   class="input-text required-entry validate-password" id="pass"
+                                   title="<?php echo Mage::helper('core')->quoteEscape($this->__('Password')) ?>"/>
+                        </label>
+                    </div>
+                    <div>
+                        <input type="submit" class="button" value="Sign In"
+                               title="<?php echo Mage::helper('core')->quoteEscape($this->__('Login')) ?>" name="send"
+                               id="send2">
+                        </input>
+                    </div>
+                    <div class="forget">
+                        <a href="<?php echo $this->getForgotPasswordUrl() ?>"
+                           class="f-left"><?php echo $this->__('Forgot Your Password?') ?></a>
+                    </div>
+                </form>
+            </div>
+
+            <?php if (Mage::helper('checkout')->isContextCheckout()): ?>
+                <input name="context" type="hidden" value="checkout"/>
+            <?php endif; ?>
+        </div>
+
+    </div>
+</div>
+
+
+
+<script type="text/javascript">
+    //<![CDATA[
+    var dataForm = new VarienForm('login-form', true);
+    //]]>
+</script>
+
+

@@ -1,0 +1,82 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magento.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magento.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2006-2016 X.commerce, Inc. and affiliates (http://www.magento.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<div class="footer-container">
+    <!--footer_top-->
+    <div class="footer_top">
+        <div class="wrap">
+            <div class="footer">
+                <!-- start grids_of_3 -->
+                <div class="span_of_3">
+                    <div class="span1_of_3">
+                        <? echo $this->getLayout()->createBlock('cms/block')->setBlockId('TEXT_EDIT')->toHtml() ?>
+                    </div>
+                    <div class="span1_of_3">
+
+                    </div>
+                    <div class="span1_of_3">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer_mid-->
+    <div class="footer_mid">
+        <div class="wrap">
+            <div class="footer">
+                <div class="f_search">
+
+                </div>
+                <div class="soc_icons">
+
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    <!--footer_bg-->
+    <div class="footer_bg">
+        <div class="wrap">
+            <div class="footer">
+                <!-- scroll_top_btn -->
+                <a href="#" id="toTop" style="display: block;">
+                    <span id="toTopHover"></span>
+                    <span id="toTopHover"></span>
+                    <span id="toTopHover" style="opacity: 1;"></span>
+                </a>
+                <!--end scroll_top_btn -->
+                <div class="f_nav1">
+                    <?php echo $this->getChildHtml() ?>
+                </div>
+                <div class="copy">
+                    <p class="link"><?php echo $this->getCopyright() ?></p>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+</div>
